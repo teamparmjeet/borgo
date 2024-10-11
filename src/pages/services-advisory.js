@@ -93,8 +93,7 @@ export default function services() {
                 <>Budgets and <br /> Projections</>,
                 'Preparing Budgets and Projections is an important planning and forecasting process to help you manage your business and should be reviewed regularly in conjunction with your management reports. At Borgowe can assist you in preparing your budgets and projections for the year, review your key assumptions and help identify capital and resource needs.',
                 <>Pre Year End Review</>,
-                'We offer a Pre Year End Review for our clients. This gives the company and its directors the opportunity to review the financial performance of the company for the year to date, forecast for the remainder of the year, plan preliminary tax payments and consider bonuses and pension contributions in advance of the year end. Having this meeting before the year end helps the company maximises any tax reliefs, manage cash flow and achieve your financial goals. '
-              ]} />
+                'We offer a Pre Year End Review for our clients. This gives the company and its directors the opportunity to review the financial performance of the company for the year to date, forecast for the remainder of the year, plan preliminary tax payments and consider bonuses and pension contributions in advance of the year end. Having this meeting before the year end helps the company maximises any tax reliefs, manage cash flow and achieve your financial goals. ']} />
             </Grid>
             <Grid item xs={12} sm={12} md={6} xl={6} className='div-center div-center-sm'>
               <ServiceCardRight props={3} />

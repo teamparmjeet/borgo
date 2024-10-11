@@ -17,6 +17,7 @@ import img124 from '../../public/assests/News/image011.jpg'
 import img125 from '../../public/assests/News/image013.png'
 import img126 from '../../public/assests/News/image029.jpg'
 import img127 from '../../public/assests/News/image030.jpg'
+import img1275 from '../../public/assests/News/image027.png'
 
 
 
@@ -113,60 +114,45 @@ export default function services() {
                 <div >
                     <div className={styles["mb55"]}>Benefits of Using Xero</div>
 
-                    <Grid className={styles['midSectionCard']}>
-                        <Grid className={styles['part5']}>
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={logo2} className={styles['logo2']} />
-
-                            <div className={styles['midCardHead']} >Easy to Use
+                    <div className={styles['midSectionCard2']}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
+                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Easy to Use -</p>
+                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                    Non-accountants love how simple Xero is to navigate.
+                                </p>
                             </div>
-                            <div className={styles['midCardText3']} >
-                                Non-accountants love how simple Xero is to navigate.
 
+                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
+                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Real-Time Data -</p>
+                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                    View your financials anytime, with up-to-date information.
+                                </p>
                             </div>
-                        </Grid>
 
-                        <Grid className={styles['part5']}>
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={logo2} className={styles['logo2']} />
-
-                            <div className={styles['midCardHead']} >Real-Time Data
+                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
+                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Collaboration -</p>
+                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                    Share access with your team or accountant for seamless collaboration.
+                                </p>
                             </div>
-                            <div className={styles['midCardText3']} >
-                                View your financials anytime, with up-to-date information.
+
+
+                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
+                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Flexible Add-Ons -</p>
+                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                    Customize Xero with hundreds of integrations to suit your business
+                                </p>
                             </div>
-                        </Grid>
+
+                        </div>
 
 
-                    </Grid>
 
-                    <Grid className={styles['midSectionCard']}>
-                        <Grid className={styles['part5']}>
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={logo2} className={styles['logo2']} />
-
-                            <div className={styles['midCardHead']} >Collaboration
-                            </div>
-                            <div className={styles['midCardText3']} >
-                                Share access with your team or accountant for seamless collaboration.
+                    </div>
 
 
-                            </div>
-                        </Grid>
 
-                        <Grid className={styles['part5']}>
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={logo2} className={styles['logo2']} />
-
-                            <div className={styles['midCardHead']} >Flexible Add-Ons
-                            </div>
-                            <div className={styles['midCardText3']} >
-                                Customize Xero with hundreds of integrations to suit your business
-                            </div>
-                        </Grid>
-
-
-                    </Grid>
                 </div>
 
             </div>
@@ -174,75 +160,66 @@ export default function services() {
 
             <div className={styles['midSection22']}>
                 <div >
-                    <div className={styles["mb55"]}>Top Xero Features
+                    <div className={styles["mb55"]}>Top Xero Features</div>
+
+                    <div className={styles['midSectionCard2']}>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', }}>
+                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Bank Feeds -</p>
+                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                    Connect your bank account directly to Xero to import your bank information.<br></br> If your Bank doesn’t offer this service, don’t worry, there is<br></br> a simple bank import function
+                                </p>
+                            </div>
+
+                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
+                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Collaboration -</p>
+                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                    Share access with your team or accountant for seamless collaboration
+                                </p>
+                            </div>
+
+                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
+                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Flexible Add-Ons -</p>
+                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                    Customize Xero with hundreds of integrations to suit your business
+                                </p>
+                            </div>
+
+
+
+
+                        </div>
+
+
+
                     </div>
 
-                    <Grid className={styles['midSectionCard']}>
-                        <Grid className={styles['part5']}>
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={logo2} className={styles['logo2']} />
-
-                            <div className={styles['midCardHead']} >Bank Feeds:
-                            </div>
-                            <div className={styles['midCardText3']} >
-                                Connect your bank account directly to Xero to import your bank information. If your Bank doesn’t offer this service, don’t worry, there is a simple bank import function.
-
-                            </div>
-                        </Grid>
-
-                        <Grid className={styles['part5']}>
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={logo2} className={styles['logo2']} />
-
-                            <div className={styles['midCardHead']} >Collaboration
-                            </div>
-                            <div className={styles['midCardText3']} >
-                                Share access with your team or accountant for seamless collaboration.
-
-                            </div>
-                        </Grid>
 
 
-                    </Grid>
-
-                    <Grid className={styles['midSectionCard']}>
-                        <Grid className={styles['part5']}>
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={logo2} className={styles['logo2']} />
-
-                            <div className={styles['midCardHead']} >Flexible Add-Ons:
-                            </div>
-                            <div className={styles['midCardText3']} >
-                                Customize Xero with hundreds of integrations to suit your business.
-
-
-                            </div>
-                        </Grid>
-
-
-
-                    </Grid>
                 </div>
 
             </div>
 
 
+         
+
+
 
             <div className={styles['midSection22']}>
                 <div >
-                    <div className={styles["mb55"]}>Some of the other tools we use
+                    <h5 className={styles["mb55"]}>Some of the other tools we use
 
-                    </div>
+                    </h5>
                     <div className={styles['klomain']}>
                         <div className={styles['klo1']}>
                             <p className={styles['sectionTitle']}>Purchases and Expenses:</p>
                             <div className={styles['klo2']}>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>Hubdoc</h4>
+                                    {/* <h4 className={styles['imageTitle']}>Hubdoc</h4> */}
                                     <Image src={img126} className={styles['logo22']} />
                                 </div>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>Dext</h4>
+                                    {/* <h4 className={styles['imageTitle']}>Dext</h4> */}
                                     <Image src={img127} className={styles['logo22']} />
                                 </div>
                             </div>
@@ -252,11 +229,11 @@ export default function services() {
                             <p className={styles['sectionTitle']}>Sales and Payments:</p>
                             <div className={styles['klo2']}>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>Chaser</h4>
+                                    {/* <h4 className={styles['imageTitle']}>Chaser</h4> */}
                                     <Image src={img124} className={styles['logo22']} />
                                 </div>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>GoCardless</h4>
+                                    {/* <h4 className={styles['imageTitle']}>GoCardless</h4> */}
                                     <Image src={img125} className={styles['logo22']} />
                                 </div>
                             </div>
@@ -266,11 +243,11 @@ export default function services() {
                             <p className={styles['sectionTitle']}>Reporting</p>
                             <div className={styles['klo2']}>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>Syft</h4>
+                                    {/* <h4 className={styles['imageTitle']}>Syft</h4> */}
                                     <Image src={img122} className={styles['logo22']} />
                                 </div>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>Bright Accounts Production  </h4>
+                                    {/* <h4 className={styles['imageTitle']}>Bright Accounts Production  </h4> */}
                                     <Image src={img123} className={styles['logo22']} />
                                 </div>
                             </div>
@@ -280,11 +257,11 @@ export default function services() {
                             <p className={styles['sectionTitle']}>Practice Management</p>
                             <div className={styles['klo2']}>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>Karbon</h4>
+                                    {/* <h4 className={styles['imageTitle']}>Karbon</h4> */}
                                     <Image src={img11} className={styles['logo22']} />
                                 </div>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>MS Office</h4>
+                                    {/* <h4 className={styles['imageTitle']}>MS Office</h4> */}
                                     <Image src={img12} className={styles['logo22']} />
                                 </div>
                             </div>
@@ -294,7 +271,7 @@ export default function services() {
                             <p className={styles['sectionTitle']}>Finance</p>
                             <div className={styles['klo2']}>
                                 <div className={styles['imageContainer']}>
-                                    <h4 className={styles['imageTitle']}>Swoop</h4>
+                                    {/* <h4 className={styles['imageTitle']}>Swoop</h4> */}
                                     <Image src={img1} className={styles['logo22']} />
                                 </div>
                             </div>

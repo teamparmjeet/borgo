@@ -101,7 +101,7 @@ export default function news() {
           <Box className={styles['top-center-text-1']}>
             Feature Post
           </Box>
-          <Box className={styles['top-center-text-2']}>Enhanced Reporting Requirements</Box>
+          <Box className={styles['top-center-text-233']}>Enhanced Reporting Requirements</Box>
           <Box className={styles['top-center-text-2-1']}>Enhanced Reporting Requirements</Box>
 
 
@@ -124,82 +124,82 @@ export default function news() {
       <Box className={styles['mid-box']}>
         <Grid container className={styles['card-box']}>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal fade-left`}>
+            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal `}>
               <NewsCard Img={LeograntImg} Img_sm={LeograntImg_sm} Ind={'One'} Side={'left'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6} >
-            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal fade-right`}>
+            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal `}>
               <NewsCard Img={XeroImg} Img_sm={XeroImg_sm} Ind={'Two'} Side={'right'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal fade-left`}>
+            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal `}>
               <NewsCard Img={RetirementreliefImg} Img_sm={RetirementreliefImg_sm} Ind={'Three'} Side={'left'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal fade-right`}>
+            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal `}>
               <NewsCard Img={MileageImg} Img_sm={MileageImg_sm} Ind={'Four'} Side={'right'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal fade-left`}>
+            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal `}>
             <NewsCard Img={outsourcingImg} Img_sm={outsourcingImg_sm} Ind={'Fifteen'} Side={'left'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal fade-right`}>
+            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal `}>
               <NewsCard Img={EiisImg} Img_sm={EiisImg_sm} Ind={'Six'} Side={'right'} />
             </Box>
           </Grid>
           {/* <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal fade-left`}>
+            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal `}>
               <NewsCard Img={IncometaxImg} Img_sm={IncometaxImg_sm} Ind={'Seven'} Side={'left'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal fade-right`}>
+            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal `}>
               <NewsCard Img={VoucherImg} Img_sm={VoucherImg_sm} Ind={'Eight'} Side={'right'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal fade-left`}>
+            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal `}>
               <NewsCard Img={IncometaxImg} Img_sm={IncometaxImg_sm} Ind={'Nine'} Side={'left'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal fade-right`}>
+            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal `}>
               <NewsCard Img={VoucherImg} Img_sm={VoucherImg_sm} Ind={'Ten'} Side={'right'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal fade-left`}>
+            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal `}>
               <NewsCard Img={DextImg} Img_sm={DextImg_sm} Ind={'Eleven'} Side={'left'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal fade-right`}>
+            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal `}>
               <NewsCard Img={BikeImg} Img_sm={BikeImg_sm} Ind={'Twelve'} Side={'right'} />
             </Box>
           </Grid> */}
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal fade-left`}>
+            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal `}>
               <NewsCard Img={ProfitabilityImg} Img_sm={ProfitabilityImg_sm} Ind={'Thirteen'} Side={'left'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal fade-right`}>
+            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal `}>
               <NewsCard Img={enterpriseIrelandImg} Img_sm={enterpriseIrelandImg_sm} Ind={'Fourteen'} Side={'right'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal fade-left`}>
+            <Box className={`${styles['mid-box-left']} div-end div-center-sm reveal `}>
               <NewsCard Img={outsourcingImg} Img_sm={outsourcingImg_sm} Ind={'Fifteen'} Side={'left'} />
             </Box>
           </Grid>
           <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
-            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal fade-right`}>
+            <Box className={`${styles['mid-box-right']} div-start div-center-sm reveal `}>
               <NewsCard Img={grantsImg} Img_sm={grantsImg_sm} Ind={'Sixteen'} Side={'right'} />
             </Box>
           </Grid>

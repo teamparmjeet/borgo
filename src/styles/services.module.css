@@ -150,7 +150,7 @@
     font-size: 18px !important;
     /* line-height: 30px !important; */
     letter-spacing: -0.48px !important;
-    margin-top:50px !important;
+    margin-top: 50px !important;
     color: white !important;
     text-align: center !important;
 }
@@ -329,6 +329,7 @@
         letter-spacing: -0.96px !important;
         margin-top: 40px !important;
     }
+
     .topText {
         font-size: 21px !important;
         line-height: 34px !important;
@@ -384,7 +385,14 @@
 
 .midSectionCard {
     display: flex !important;
-    margin-bottom: 20px!important;
+    margin-bottom: 20px !important;
+}
+
+.midSectionCard2 {
+    display: flex !important;
+    gap: 50px;
+    flex-wrap: wrap;
+    margin-bottom: 20px !important;
 }
 
 .part1 {
@@ -393,12 +401,14 @@
     position: relative !important;
     margin-right: 100px !important;
 }
+
 .part5 {
     width: 538px !important;
     height: 408px !important;
     position: relative !important;
     margin-right: 100px !important;
 }
+
 .logo1 {
     position: absolute !important;
 
@@ -413,6 +423,11 @@
     justify-content: center !important;
 }
 
+.midCard55 {
+    width: 50%;
+    height: 50%;
+}
+
 .logo2 {
     height: 118px !important;
     width: 118px !important;
@@ -420,10 +435,11 @@
     right: 40px !important;
     top: 30px !important;
 }
+
 .logo22 {
     height: 118px !important;
     width: 100% !important;
-    
+
 }
 
 .logo1 {
@@ -447,6 +463,7 @@
     color: #DDDDDD !important;
     width: 90% !important;
 }
+
 .midCardText3 {
     position: absolute !important;
     bottom: 43px !important;
@@ -458,7 +475,7 @@
     line-height: 36px !important;
     letter-spacing: -0.48px !important;
     color: #DDDDDD !important;
-    padding:0 20px;
+    padding: 0 20px;
 
     width: 90% !important;
 }
@@ -477,7 +494,7 @@
     letter-spacing: -0.72px !important;
 }
 
-.midCardHead8{
+.midCardHead8 {
     top: 100px !important;
     left: 30px !important;
 
@@ -490,6 +507,7 @@
     line-height: 29px !important;
     letter-spacing: -0.72px !important;
 }
+
 .leftSection {
     display: flex !important;
     align-items: flex-start !important;
@@ -543,6 +561,7 @@
         width: 86px !important;
 
     }
+
     .midCardText {
         position: absolute !important;
         top: 190px !important;
@@ -557,6 +576,7 @@
         width: 261px !important;
 
     }
+
     .midCardText3 {
         position: absolute !important;
         top: 190px !important;
@@ -568,7 +588,7 @@
         letter-spacing: -0.236861px !important;
         color: #DDDDDD !important;
         height: 167px !important;
-        padding:0 20px;
+        padding: 0 20px;
         width: 261px !important;
 
     }
@@ -683,8 +703,8 @@
 }
 
 
-.mb55{
-    margin-bottom: 50px!important;
+.mb55 {
+    margin-bottom: 50px !important;
     align-self: start;
     font-family: 'Mulish' !important;
     font-style: normal !important;
@@ -704,83 +724,116 @@
     margin-top: 50px !important;
     padding-inline: 10px !important;
 }
-.klomain{
+
+
+.klo1 {
     display: flex;
-    flex-wrap: wrap;
-    gap: 50px;
-    width: 80%;
-margin: 0 auto;
-}
-.klo1{
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background-color: #1b1b37;
-color: white;
-font-size: 25px;
-padding: 20px;
-box-shadow: 0 0 5px;
-/* width: 400px; */
-border-radius: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1b1b37;
+    color: white;
+    font-size: 25px;
+    padding: 20px;
+    box-shadow: 0 0 5px;
+    border-radius: 20px;
 
 }
-.klo2{
+
+.klo2 {
     display: flex;
     gap: 10px;
 }
 
 .klomain {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+  }
+  
+  .imageContainer {
+    text-align: center;
+    border: 1px solid #E2BFB3;
+    border-radius: 8px;
+    padding: 10px;
+    border-radius: 50%;
+    height: 250px;
+    width: 250px;
+    overflow: hidden;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     padding: 20px;
-    background-color: #f9f9f9; /* Light background for contrast */
-    border-radius: 10px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
-}
+    background-color: #FFFFFF;
 
-.klo1 {
-    margin-bottom: 30px; /* Space between sections */
 }
+  /* Media query for tablets */
+  @media (max-width: 768px) {
+    .klomain {
+      grid-template-columns: 1fr; /* Switch to a single column */
+    }
+    .imageContainer {
+        text-align: center;
+        border: 1px solid #E2BFB3;
+        border-radius: 8px;
+        padding: 0px;
+        border-radius: 50%;
+        height: 200px;
+        width: 200px;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        background-color: #FFFFFF;
+    
+    }
+  }
+  
+  /* Media query for mobile devices */
+  @media (max-width: 480px) {
+    .klomain {
+      grid-template-columns: 1fr; /* Keep single column */
+      gap: 20px; /* Reduce gap for smaller screens */
+    }
+  }
+  
+
 
 .sectionTitle {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #FFBE98; /* Title color */
-    margin-bottom: 15px; /* Space below title */
-    text-align: center; /* Center align title */
+    color: #C54D1F;
+   
+    margin-bottom: 15px;
+    
 }
 
 .klo2 {
     display: flex;
-    justify-content: center; /* Center items horizontally */
-    gap: 20px; /* Space between images */
-    flex-wrap: wrap; /* Allow wrapping on smaller screens */
+    justify-content: center;
+    /* Center items horizontally */
+    gap: 20px;
+    /* Space between images */
+    flex-wrap: wrap;
+    /* Allow wrapping on smaller screens */
 }
 
-.imageContainer {
-    text-align: center; /* Center content within each container */
-    border: 1px solid #E2BFB3; /* Subtle border around images */
-    border-radius: 8px;
-    padding: 10px; /* Space within each image container */
-    background-color: #FFFFFF; /* White background for contrast */
-    transition: transform 0.3s; /* Animation for hover effect */
-}
 
-.imageContainer:hover {
-    transform: scale(1.05); /* Scale up on hover */
-}
 
 .imageTitle {
     font-size: 1rem;
-    font-weight: 600; /* Slightly bolder */
-    color: #333; /* Darker color for better visibility */
-    margin-bottom: 10px; /* Space below image title */
+    font-weight: 600;
+    /* Slightly bolder */
+    color: #333;
+    /* Darker color for better visibility */
+    margin-bottom: 10px;
+    /* Space below image title */
 }
 
 .logo22 {
-    width: 100px; /* Adjust size as necessary */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 5px; /* Rounded corners for images */
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Soft shadow for images */
+    width: 100%;
+    height: 100%;
+    
+ 
 }

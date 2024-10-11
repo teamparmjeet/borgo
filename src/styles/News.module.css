@@ -45,6 +45,14 @@
     letter-spacing: -1.6px !important;
 }
 
+.top-center-text-233 {
+    font-weight: 700 !important;
+    font-size: 38px !important;
+    /* font-size: 80px !important; */
+    line-height: 48px !important;
+    letter-spacing: -1.6px !important;
+}
+
 .top-center-text-1 {
     font-weight: 600 !important;
     font-size: 18px !important;
@@ -163,6 +171,9 @@
 
     .top-center-text-2 {
         display: none !important;
+    }
+    .top-center-text-233 {
+        display: none!important;
     }
 
     .top-center-text-2-1 {
