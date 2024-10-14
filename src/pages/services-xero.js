@@ -58,12 +58,12 @@ export default function services() {
                         Xero Migration,<br></br> Implementation <br></br> and Training
 
                     </div>
-                    <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem',}}>
-                        Welcome to the future of accounting with Xero, cloud accounting 
+                    <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem', }}>
+                        Welcome to the future of accounting with Xero, cloud accounting
                         software designed to make managing your business finances
-                         easier than ever. We offer seamless migration, setup, and
-                         training to help you get the most out of Xero, allowing you
-                         to focus on growing your business.
+                        easier than ever. We offer seamless migration, setup, and
+                        training to help you get the most out of Xero, allowing you
+                        to focus on growing your business.
 
 
                     </div>
@@ -117,30 +117,30 @@ export default function services() {
                     <div className={styles['midSectionCard2']}>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
                             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Easy to Use -</p>
-                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Easy to Use -</p>
+                                <p style={{ fontSize: '24px', color: '#fff' }}>
                                     Non-accountants love how simple Xero is to navigate.
                                 </p>
                             </div>
 
                             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Real-Time Data -</p>
-                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Real-Time Data -</p>
+                                <p style={{ fontSize: '24px', color: '#fff' }}>
                                     View your financials anytime, with up-to-date information.
                                 </p>
                             </div>
 
                             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Collaboration -</p>
-                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Collaboration -</p>
+                                <p style={{ fontSize: '24px', color: '#fff' }}>
                                     Share access with your team or accountant for seamless collaboration.
                                 </p>
                             </div>
 
 
                             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Flexible Add-Ons -</p>
-                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Flexible Add-Ons -</p>
+                                <p style={{ fontSize: '24px', color: '#fff' }}>
                                     Customize Xero with hundreds of integrations to suit your business
                                 </p>
                             </div>
@@ -165,22 +165,22 @@ export default function services() {
                     <div className={styles['midSectionCard2']}>
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
                             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', }}>
-                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Bank Feeds -</p>
-                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F', }}>Bank Feeds -</p>
+                                <p style={{ fontSize: '24px', color: '#fff', }}>
                                     Connect your bank account directly to Xero to import your bank information.<br></br> If your Bank doesn’t offer this service, don’t worry, there is<br></br> a simple bank import function
                                 </p>
                             </div>
 
                             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Collaboration -</p>
-                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Collaboration -</p>
+                                <p style={{ fontSize: '24px', color: '#fff' }}>
                                     Share access with your team or accountant for seamless collaboration
                                 </p>
                             </div>
 
                             <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '28px', fontWeight: 'bold', color: '#C54D1F', margin: '0' }}>Flexible Add-Ons -</p>
-                                <p style={{ fontSize: '20px', color: '#fff', margin: '5px 0' }}>
+                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Flexible Add-Ons -</p>
+                                <p style={{ fontSize: '24px', color: '#fff' }}>
                                     Customize Xero with hundreds of integrations to suit your business
                                 </p>
                             </div>
@@ -192,25 +192,6 @@ export default function services() {
                     </div>
 
 
-                    <div style={{
-
-                        maxWidth: '700px', // Max width for better readability
-                        margin: '20px auto', // Center the div
-                        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)', // Shadow for depth
-                        padding: "20px"
-                    }}>
-                        <p style={{
-                            fontSize: '22px',
-                            color: '#fff',
-                            margin: '0 0 15px 0', // Margin adjustments
-                            lineHeight: '1.5', // Line height for better readability
-                            textAlign: 'center', // Center text
-                        }}>
-                            Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
-
-                        </p>
-
-                    </div>
 
 
 
@@ -219,7 +200,22 @@ export default function services() {
             </div>
 
 
+            <Box className="div-center position-relative mt-0">
+                <Box className={styles['schedule']}>
+                  
+                    <Typography className='weight-600 font-24 width-80 font-mulish line-height-36'>
+                    Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
 
+                    </Typography>
+                   
+                </Box>
+                <Box className="display-none-sm position-absolute right-0">
+                    <Image src={Scheduled} className={styles['schedule-sphere']} />
+                </Box>
+                <Box className="display-none display-block-sm position-absolute right-0 fig-schedule">
+                    <Image src={ScheduledMobile} className={styles['schedule-sphere']} />
+                </Box>
+            </Box >
 
 
 
@@ -295,31 +291,30 @@ export default function services() {
                             </div>
                         </div>
                     </div>
-                    <div style={{
-
-                        maxWidth: '700px', // Max width for better readability
-                        margin: '20px auto', // Center the div
-                        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)', // Shadow for depth
-                        padding: "20px"
-                    }}>
-                        <p style={{
-                            fontSize: '22px',
-                            color: '#fff',
-                            margin: '0 0 15px 0', // Margin adjustments
-                            lineHeight: '1.5', // Line height for better readability
-                            textAlign: 'center', // Center text
-                        }}>
-                            Want to talk to us about your App Stack? We have team members who can review
-
-                            your processes and apps. If we can’t help directly, we’ll help find the right solution for you.
-                        </p>
-
-                    </div>
+                 
 
 
                 </div>
 
             </div>
+
+            <Box className="div-center position-relative mt-0">
+                <Box className={styles['schedule']}>
+                  
+                    <Typography className='weight-600 font-24 width-80 font-mulish line-height-36'>
+                        Want to talk to us about your App Stack? We have team members who can review
+
+                        your processes and apps. If we can’t help directly, we’ll help find the right solution for you.
+                    </Typography>
+                   
+                </Box>
+                <Box className="display-none-sm position-absolute right-0">
+                    <Image src={Scheduled} className={styles['schedule-sphere']} />
+                </Box>
+                <Box className="display-none display-block-sm position-absolute right-0 fig-schedule">
+                    <Image src={ScheduledMobile} className={styles['schedule-sphere']} />
+                </Box>
+            </Box >
 
             <div className={styles['midSection2']}>
                 <div >

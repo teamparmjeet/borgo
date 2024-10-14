@@ -56,7 +56,7 @@ export default function About() {
         </Box>
       </Box>
 
-      <Grid container className='flex-direction-column-reverse-sm mt-40-sm mt-100'>
+      <Grid container className='flex-direction-column-reverse-sm mt-40-sm mt-80'>
         <Grid item xs={12} sm={12} md={6} lg={6} xl={6}>
           <Box className={`${styles['card-main-about']} mt-50 div-center animation-cards`} style={{ zIndex: 6 }}>
             <Box className={styles['card-top-box-about']} ></Box>
@@ -103,12 +103,12 @@ export default function About() {
       </Box>
 
       <Box className='width-80 width-80-sm margin-auto position-relative mt-100-sm' >
-        <Typography className='font-60 font-24-sm weight-300 weight-600-sm text-center font-mulish color-light-grey mt-20-sm line-height-72 line-height-29-sm' sx={{ marginTop: '400px' }}>
+        <Typography className='font-60 font-24-sm weight-300 weight-600-sm text-center font-mulish color-light-grey mt-20-sm line-height-72 line-height-29-sm' sx={{ marginTop: '300px' }}>
           “Their seamless onboarding process and expertise in Xero made the transition smooth and effortless”
         </Typography>
       </Box>
 
-      <Box className="div-center flex-direction-column position-relative mt-100 mt-50-sm">
+      <Box className="div-center flex-direction-column position-relative mt-80 mt-50-sm">
         <Box className='display-none-sm position-absolute left-0 about-fig-3'>
           <Image src={About3} width='100%' height="100%" />
         </Box>
@@ -319,7 +319,7 @@ export default function About() {
 
       </Box>
 
-      <Box className='mt-100-sm mt-300'>
+      <Box className='mt-100-sm mt-100'>
         <UpperFooter />
       </Box>
       <Footer />

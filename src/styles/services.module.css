@@ -58,8 +58,8 @@
     z-index: -1 !important;
     height: 388px !important;
     width: 388px !important;
-    left: 0px !important;
-    top: 420px !important;
+    left: -100px !important;
+    top: 220px !important;
     position: absolute !important;
 }
 
@@ -437,7 +437,7 @@
 }
 
 .logo22 {
-    height: 118px !important;
+    height: 98px !important;
     width: 100% !important;
 
 }
@@ -757,8 +757,8 @@
     border-radius: 8px;
     padding: 10px;
     border-radius: 50%;
-    height: 250px;
-    width: 250px;
+    height: 200px;
+    width: 200px;
     overflow: hidden;
     display: flex;
     justify-content: center;

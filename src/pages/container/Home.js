@@ -1072,7 +1072,7 @@ export default function Home() {
                             className="display-none-sm div-center position-relative"
                             style={{ marginBottom: "30px" }}
                         >
-                            <a href="/blog" className="text-decoration-none">
+                            <a href="/outsourcing_blog/" className="text-decoration-none">
                                 <Image
                                     src={Card1}
                                     width="100%"
@@ -1110,7 +1110,7 @@ export default function Home() {
                                             className="weight-600 color-light-grey font-24 font-mulish"
                                             sx={{ marginTop: "10px" }}
                                         >
-                                            Everything Borgo weekly report
+                                           Unlocking Efficiency with Borgo
                                         </Typography>
                                         <Box className={"div-between"} sx={{ marginTop: "10px" }}>
                                             <Typography className="color-grey text-center font-18 font-mulish">
@@ -1132,7 +1132,7 @@ export default function Home() {
                             className="display-none-sm div-center position-relative"
                             style={{ marginBottom: "30px" }}
                         >
-                            <a href="#" className="text-decoration-none">
+                            <a href="/profitability_blog/" className="text-decoration-none">
                                 <Image
                                     src={Card2}
                                     width="100%"
@@ -1170,7 +1170,7 @@ export default function Home() {
                                             className="weight-600 color-light-grey font-24 font-mulish"
                                             sx={{ marginTop: "10px" }}
                                         >
-                                            Architects of the consensus
+                                           Unlocking Consistent Profitability
                                         </Typography>
                                         <Box className={"div-between"} sx={{ marginTop: "10px" }}>
                                             <Typography className="color-grey text-center font-18 font-mulish">
@@ -1193,7 +1193,7 @@ export default function Home() {
                             className="display-none-sm div-center position-relative"
                             style={{ marginBottom: "30px" }}
                         >
-                            <a href="#" className="text-decoration-none">
+                            <a href="/enterpriseIreland_blog/" className="text-decoration-none">
                                 <Image
                                     src={Card3}
                                     width="100%"
@@ -1231,7 +1231,7 @@ export default function Home() {
                                             className="weight-600 color-light-grey font-24 font-mulish"
                                             sx={{ marginTop: "10px" }}
                                         >
-                                            Mitigating lost transactions
+                                            Irish Business Supports
                                         </Typography>
                                         <Box className={"div-between"} sx={{ marginTop: "10px" }}>
                                             <Typography className="color-grey text-center font-18 font-mulish">

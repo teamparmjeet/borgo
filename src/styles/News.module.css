@@ -20,6 +20,7 @@
 
 .top-center-image {
     border-radius: 20px !important;
+    height: 500px;
     position: absolute !important;
     left: 35px !important;
 }

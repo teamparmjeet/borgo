@@ -87,7 +87,7 @@ export default function news() {
       <Box className={styles['top-center']}>
 
         <Box className={styles['top-center-left']}>
-          <Image src={backCard1} className={styles['top-center-back']} />
+       
           <Link href="/err_blog" >
             <Image src={TopImage} className={styles['top-center-image']} />
           </Link>
