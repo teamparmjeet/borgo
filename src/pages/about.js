@@ -41,7 +41,7 @@ export default function About() {
             <Image src={About2} width='100%' height="100%" />
           </Box>
           <Box className='margin-auto flex-direction-column width-60 width-100-sm div-center-sm position-relative' sx={{ zIndex: '5' }}>
-            <Typography className='font-18 weight-400 color-orange mt-20-sm font-mulish'>About Us</Typography>
+        
             <Typography className='display-none-sm font-80 weight-700 color-light-grey font-mulish line-height-88 width-80 '>About Us</Typography>
             <Typography className='display-none display-block-sm font-48-sm weight-700 font-mulish color-light-grey line-height-60 width-60 text-center-sm mt-20-sm'>Who are Borgo?</Typography>
             <Typography className='font-24 font-22-sm weight-600 color-light-grey line-height-36 width-100 width-80-sm bottom-0 text-center-sm mt-50 mt-20-sm font-mulish'>You started your business with a passion to succeed. We did the same.</Typography>
