@@ -29,6 +29,7 @@ import Footer from "../components/Footer";
 import UpperFooter from "../components/UpperFooter";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
+import Link from "next/link";
 
 // const Crouseldata = (e) => {
 //     return (
@@ -1072,7 +1073,7 @@ export default function Home() {
                             className="display-none-sm div-center position-relative"
                             style={{ marginBottom: "30px" }}
                         >
-                            <a href="/outsourcing_blog/" className="text-decoration-none">
+                            <Link href="/outsourcing_blog" className="text-decoration-none">
                                 <Image
                                     src={Card1}
                                     width="100%"
@@ -1125,14 +1126,14 @@ export default function Home() {
                                         </Box>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
 
                         <Grid item xs={12} sm={12} md={12} lg={12} xl={12}
                             className="display-none-sm div-center position-relative"
                             style={{ marginBottom: "30px" }}
                         >
-                            <a href="/profitability_blog/" className="text-decoration-none">
+                            <Link href="/profitability_blog" className="text-decoration-none">
                                 <Image
                                     src={Card2}
                                     width="100%"
@@ -1185,7 +1186,7 @@ export default function Home() {
                                         </Box>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
 
                         <Grid
@@ -1193,7 +1194,7 @@ export default function Home() {
                             className="display-none-sm div-center position-relative"
                             style={{ marginBottom: "30px" }}
                         >
-                            <a href="/enterpriseIreland_blog/" className="text-decoration-none">
+                            <Link href="/enterpriseIreland_blog" className="text-decoration-none">
                                 <Image
                                     src={Card3}
                                     width="100%"
@@ -1246,7 +1247,7 @@ export default function Home() {
                                         </Box>
                                     </div>
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
 
                         {/* mobile */}
