@@ -1111,7 +1111,7 @@ export default function Home() {
                                             className="weight-600 color-light-grey font-24 font-mulish"
                                             sx={{ marginTop: "10px" }}
                                         >
-                                           Unlocking Efficiency with Borgo
+                                            Unlocking Efficiency with Borgo
                                         </Typography>
                                         <Box className={"div-between"} sx={{ marginTop: "10px" }}>
                                             <Typography className="color-grey text-center font-18 font-mulish">
@@ -1171,7 +1171,7 @@ export default function Home() {
                                             className="weight-600 color-light-grey font-24 font-mulish"
                                             sx={{ marginTop: "10px" }}
                                         >
-                                           Unlocking Consistent Profitability
+                                            Unlocking Consistent Profitability
                                         </Typography>
                                         <Box className={"div-between"} sx={{ marginTop: "10px" }}>
                                             <Typography className="color-grey text-center font-18 font-mulish">
@@ -1256,7 +1256,7 @@ export default function Home() {
                             className="display-none display-flex-sm div-center position-relative"
                             style={{ marginBottom: "20px", marginTop: "50px" }}
                         >
-                            <a href="/blog" className="text-decoration-none position-relative" style={{ width: '320px', height: '380px' }}>
+                            <Link href="/outsourcing_blog" className="text-decoration-none position-relative" style={{ width: '320px', height: '380px' }}>
                                 <Image
                                     src={Card4}
                                     width="100%"
@@ -1287,7 +1287,7 @@ export default function Home() {
                                         className="weight-600 color-light-grey font-24 font-mulish"
                                         sx={{ marginTop: "10px" }}
                                     >
-                                        Everything Borgo weekly report
+                                         Unlocking Efficiency with Borgo
                                     </Typography>
                                     <Box
                                         className={"div-between width-80"}
@@ -1304,14 +1304,14 @@ export default function Home() {
                                         />
                                     </Box>
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
 
                         <Grid item xs={12} sm={12} md={12} lg={12} xl={12}
                             className="display-none display-flex-sm div-center position-relative"
                             style={{ marginTop: "50px" }}
                         >
-                            <a href="#" className="text-decoration-none position-relative" style={{ width: '320px', height: '380px' }}>
+                            <Link href="/profitability_blog" className="text-decoration-none position-relative" style={{ width: '320px', height: '380px' }}>
                                 <Image
                                     src={Card5}
                                     width="100%"
@@ -1342,7 +1342,7 @@ export default function Home() {
                                         className="weight-600 color-light-grey font-24 font-mulish"
                                         sx={{ marginTop: "10px" }}
                                     >
-                                        Architects of the consensus
+                                       Unlocking Consistent Profitability
                                     </Typography>
                                     <Box
                                         className={"div-between width-80"}
@@ -1359,7 +1359,7 @@ export default function Home() {
                                         />
                                     </Box>
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
 
                         <Grid
@@ -1367,7 +1367,7 @@ export default function Home() {
                             className="display-none display-flex-sm div-center position-relative"
                             style={{ marginTop: "50px" }}
                         >
-                            <a href="#" className="text-decoration-none position-relative" style={{ width: '320px', height: '380px' }}>
+                            <Link href="/enterpriseIreland_blog" className="text-decoration-none position-relative" style={{ width: '320px', height: '380px' }}>
                                 <Image
                                     src={Card6}
                                     width="100%"
@@ -1398,7 +1398,7 @@ export default function Home() {
                                         className="color-light-grey font-24 weight-600 font-mulish"
                                         sx={{ marginTop: "10px" }}
                                     >
-                                        Mitigating lost transactions
+                                        Irish Business Supports
                                     </Typography>
                                     <Box
                                         className={"div-between width-80"}
@@ -1415,7 +1415,7 @@ export default function Home() {
                                         />
                                     </Box>
                                 </div>
-                            </a>
+                            </Link>
                         </Grid>
 
                     </Grid>

@@ -129,38 +129,8 @@ export default function services() {
       </div >
 
 
-      <div className={styles['midSection2']}>
-        <div >
-          <div className={styles['midSectionHead']}>The Software</div>
-          <div className={styles['midSectionText']}>At Borgo we only use software that we trust and are proud to use</div>
-
-          <Grid className={styles['midSectionCard']}>
-            <Grid className={styles['part1']}>
-
-              <Image src={midCard} className={styles['midCard']} />
-              <Image src={logo2} className={styles['logo2']} />
-
-              <div className={styles['midCardHead']} >Xero</div>
-              <div className={styles['midCardText']} >
-                Xero is small business accounting software that operates in the cloud. This means all your financial data is stored online - so you can access it anywhere, anytime, from any device. It's easy to use and will save you incredible amounts of time, transforming the way you run your business. Xero works with hundreds of Add-on apps 2 help you manage all aspects of your business, these include point of sale, time tracking, inventory management, invoicing and job systems plus a wide range of other specialised software.
-                <br /><br />
-                At Borgo we believe that Xero is the best cloud accounting software for small business and we're proud to be a Xero partner.
-              </div>
-
-            </Grid>
-            <Grid className={styles['part1']}>
-
-              <Image src={midCard} className={styles['midCard']} />
-              <Image src={Dext} className={styles['logo1']} />
-
-              <div className={styles['midCardHead']} >Dext</div>
-              <div className={styles['midCardText']} >
-                Dext is an award-winning business accounting software add-on that converts all your purchase invoices, bills and receipts into data, making it easy for you to send your financial information straight to us. With Dext's flexible submission methods you'll never lose another document as it's simple to submit them instantly You can submit in a variety of ways including the Dext App, Email or Invoice Fetch…where Dext will fetch the invoice for you directly from your online supplier account. Using Dexts easy submission methods means that you save time on sending us your paperwork, allowing you time to build your business.
-              </div>
-
-            </Grid>
-          </Grid>
-        </div>
+      <div className={styles['midSection']}>
+      
 
       </div>
 

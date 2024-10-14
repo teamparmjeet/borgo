@@ -113,27 +113,27 @@ export default function Navbar(props) {
                                     <List>
                                         <ListItem>
                                             <Link href="/services" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
-                                                <Typography className=' font-32'>Our Services</Typography>
+                                                <Typography className=' font-20'>Our Services</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
                                             <Link href="/services-accounting" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
-                                                <Typography className=' font-32'>Accounting and Compliance</Typography>
+                                                <Typography className=' font-20'>Accounting and Compliance</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
                                             <Link href="/services-onlinebookkeepr" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
-                                                <Typography className=' font-32'>Online Bookkeeper</Typography>
+                                                <Typography className=' font-20'>Online Bookkeeper</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
                                             <Link href="/services-advisory" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
-                                                <Typography className=' font-32'>Advisory</Typography>
+                                                <Typography className=' font-20'>Advisory</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
                                             <Link href="/services-xero" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
-                                                <Typography className=' font-32'>Xero Migration</Typography>
+                                                <Typography className=' font-20'>Xero Migration</Typography>
                                             </Link>
                                         </ListItem>
                                     </List>

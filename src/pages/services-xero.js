@@ -125,11 +125,12 @@ export default function services() {
 
 
 
-            <div className={styles['midSection22']} style={{ padding: '50px 20px' }}>
-                <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-                    <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
+            <div className={styles['midSection1']} style={{ padding: '50px 20px' }}>
+                <div style={{ maxWidth: '800px', margin: '0 auto', }}>
+                    <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333' }}>Benefits of Using Xero
+                    </h2>
 
-                    <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+                    <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
                         {[
                             {
                                 title: 'Easy to Use',
@@ -156,21 +157,20 @@ export default function services() {
                                 key={index}
                                 style={{
 
-                                    padding: '20px',
+                                    padding: '5px',
                                     borderRadius: '10px',
                                     boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    gap: '15px',
+                              
                                     transition: 'transform 0.3s ease',
                                 }}
                             // className="feature-card"
                             >
                                 {/* <div style={{ fontSize: '30px', color: '#3498db' }}>{feature.icon}</div> */}
                                 <div>
-                                    <h3 style={{ fontSize: '24px', fontWeight: 'bold', color: '#fff' }}>{feature.title}</h3>
-                                    <p style={{ fontSize: '24px', color: '#fff' }}>{feature.description}</p>
+
+                                    <p style={{ fontSize: '24px', color: '#fff' }}>
+                                        <span style={{ marginRight: "15px", fontWeight: "bolder" }}>{feature.title}:</span>
+                                        {feature.description}</p>
                                 </div>
                             </div>
                         ))}
@@ -178,13 +178,15 @@ export default function services() {
                 </div>
             </div>
 
-            <div className={styles['midSection22']} style={{ padding: '50px 20px' }}>
-                <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
-                    <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
 
-                    <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+            <div className={styles['midSection1']} style={{ padding: '50px 20px' }}>
+                <div style={{ maxWidth: '800px', margin: '0 auto', }}>
+                <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
+
+
+                    <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
                         {[
-                            {
+                             {
                                 title: 'Bank Feeds',
                                 description: 'Connect your bank account directly to Xero to import your bank information. If your bank doesn’t offer this service, there is a simple bank import function.',
                                 icon: '🏦'
@@ -204,21 +206,20 @@ export default function services() {
                                 key={index}
                                 style={{
 
-                                    padding: '20px',
+                                    padding: '5px',
                                     borderRadius: '10px',
                                     boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    justifyContent: 'center',
-                                    gap: '15px',
+                              
                                     transition: 'transform 0.3s ease',
                                 }}
                             // className="feature-card"
                             >
                                 {/* <div style={{ fontSize: '30px', color: '#3498db' }}>{feature.icon}</div> */}
                                 <div>
-                                    <h3 style={{ fontSize: '24px', fontWeight: 'bold', color: '#fff' }}>{feature.title}</h3>
-                                    <p style={{ fontSize: '24px', color: '#fff' }}>{feature.description}</p>
+
+                                    <p style={{ fontSize: '24px', color: '#fff' }}>
+                                        <span style={{ marginRight: "15px", fontWeight: "bolder" }}>{feature.title}:</span>
+                                        {feature.description}</p>
                                 </div>
                             </div>
                         ))}
@@ -227,22 +228,34 @@ export default function services() {
             </div>
 
 
+        
 
-            
-            <Box className="div-center position-relative mt-0">
-                <Box className={styles['schedule']} style={{ display: "flex", alignItems: "center", flexDirection: "column" }} >
 
-                <Typography className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
-                Ready to switch
+
+            <Box className="div-center position-relative">
+
+                <div className={styles["schedule"]}>
+                    <Typography className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
+                        Ready to switch
                     </Typography>
                     <Typography className="weight-600 font-24 width-80 width-100-md font-mulish line-height-36">
-                    Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
+                        Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
                     </Typography>
-                </Box>
-
-
-            </Box >
-
+                    <div className="box-inside" style={{ marginTop: "10px" }}>
+                        <Typography
+                            className="read-more color-light-grey font-mulish"
+                            style={{ width: "158px", height: "36px", paddingInline: "14px", paddingBlock: "12px" }}
+                        >
+                            <a
+                                href="https://calendly.com/d/z84-783-bw8/discovery-call" target='_blank' style={{ textDecoration: "none", color: "#DDDDDD" }}
+                            >
+                                {" "}
+                                Schedule a call{" "}
+                            </a>
+                        </Typography>
+                    </div>
+                </div>
+            </Box>
 
 
             <div className={styles['midSection22']}>
@@ -326,21 +339,35 @@ export default function services() {
 
 
 
-            <Box className="div-center position-relative mt-0">
-                <Box className={styles['schedule']} style={{ display: "flex", alignItems: "center", flexDirection: "column" }} >
 
-                <Typography className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
-                Want to talk
+
+            <Box className="div-center position-relative">
+
+                <div className={styles["schedule"]}>
+                    <Typography className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
+                        Want to talk
                     </Typography>
-                    <Typography className="weight-600 font-24 width-80 width-100-md font-mulish line-height-36">
+                    <Typography className="weight-600 font-24 width-100 width-100-md font-mulish line-height-36">
                         Want to talk to us about your App Stack? We have team members who can review
 
                         your processes and apps. If we can’t help directly, we’ll help find the right solution for you.
                     </Typography>
-                </Box>
+                    <div className="box-inside" style={{ marginTop: "10px", }}>
+                        <Typography
+                            className="read-more color-light-grey font-mulish"
+                            style={{ width: "158px", height: "36px", paddingInline: "14px", paddingBlock: "12px" }}
+                        >
+                            <a
+                                href="https://calendly.com/d/z84-783-bw8/discovery-call" target='_blank' style={{ textDecoration: "none", color: "#DDDDDD" }}
+                            >
+                                {" "}
+                                Schedule a call{" "}
+                            </a>
+                        </Typography>
+                    </div>
+                </div>
+            </Box>
 
-
-            </Box >
 
             <div className={styles['midSection2']}>
                 <div >
