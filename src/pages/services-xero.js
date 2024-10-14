@@ -18,6 +18,7 @@ import img125 from '../../public/assests/News/image013.png'
 import img126 from '../../public/assests/News/image029.jpg'
 import img127 from '../../public/assests/News/image030.jpg'
 import img1275 from '../../public/assests/News/image027.png'
+import img12756 from '../../public/assests/team/image005.jpg'
 
 
 
@@ -66,6 +67,20 @@ export default function services() {
                         to focus on growing your business.
 
 
+                    </div>
+                    <div style={{ maxWidth: "700px", marginTop: "50px", textAlign: "center" }}>
+                        <Image
+                            src={img12756}
+                            className={styles['schedule-sphere']}
+                            alt="Staff Image"
+                            style={{
+                                borderRadius: "15px",
+                                boxShadow: "0px 4px 15px rgba(0, 0, 0, 0.1)",
+                                transition: "transform 0.3s ease-in-out",
+                                cursor: "pointer"
+                            }}
+
+                        />
                     </div>
 
                     <div className={styles['topHead5']}>
@@ -202,12 +217,12 @@ export default function services() {
 
             <Box className="div-center position-relative mt-0">
                 <Box className={styles['schedule']}>
-                  
+
                     <Typography className='weight-600 font-24 width-80 font-mulish line-height-36'>
-                    Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
+                        Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
 
                     </Typography>
-                   
+
                 </Box>
                 <Box className="display-none-sm position-absolute right-0">
                     <Image src={Scheduled} className={styles['schedule-sphere']} />
@@ -216,6 +231,7 @@ export default function services() {
                     <Image src={ScheduledMobile} className={styles['schedule-sphere']} />
                 </Box>
             </Box >
+
 
 
 
@@ -291,7 +307,7 @@ export default function services() {
                             </div>
                         </div>
                     </div>
-                 
+
 
 
                 </div>
@@ -300,13 +316,13 @@ export default function services() {
 
             <Box className="div-center position-relative mt-0">
                 <Box className={styles['schedule']}>
-                  
+
                     <Typography className='weight-600 font-24 width-80 font-mulish line-height-36'>
                         Want to talk to us about your App Stack? We have team members who can review
 
                         your processes and apps. If we can’t help directly, we’ll help find the right solution for you.
                     </Typography>
-                   
+
                 </Box>
                 <Box className="display-none-sm position-absolute right-0">
                     <Image src={Scheduled} className={styles['schedule-sphere']} />
