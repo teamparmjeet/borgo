@@ -1321,11 +1321,12 @@ body {
 }
 
 .responsive-image-about {
-  width: inherit !important;
-  height: 400px !important;
-  object-fit: fill !important;
-  object-position: bottom !important;
+  width: 100% !important;    /* Ensures the image takes full width of the container */
+  height: 100% !important;   /* Ensures the image takes full height of the container */
+  object-fit: cover !important;  /* Fills the container while maintaining aspect ratio */
+  object-position: center !important;  /* Centers the image */
 }
+
 
 .policy-links {
   color: #C54D1F !important;

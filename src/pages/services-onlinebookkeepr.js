@@ -49,7 +49,7 @@ export default function services() {
              admin tasks. Our online bookkeeping offers the following benefits:
           </div>
           <div>
-            <ul className={styles['topText2']}>
+            <ul className={styles['topText265']}>
               <li>Accessibility: Access your financial data anytime, anywhere.
               </li>
               <li>Efficiency: Streamline processes with digital tools and real-time updates.</li>
@@ -64,13 +64,13 @@ export default function services() {
           </div>
           <div>
 
-            <p className={styles['topText3']}>We have partnered with Xero to help automate and streamline traditional bookkeeping practices<br></br> for our clients and provide a complete outsourcing solution for your business. </p>
           </div>
 
           <div >
             <Image className={styles['scroll']} src={scroll} />
           </div>
         </div>
+            <p className={styles['topText3']}>We have partnered with Xero to help automate and streamline traditional bookkeeping practices for our clients and provide a complete outsourcing solution for your business. </p>
 
         <div className={styles['ref']} >
 

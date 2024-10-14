@@ -50,7 +50,7 @@ export default function services() {
 
           </div>
           <div>
-            <ul className={styles['topText2']}>
+            <ul className={styles['topText265']}>
               <li>In-depth management reports for clear financial insights.
 
               </li>

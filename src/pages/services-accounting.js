@@ -48,7 +48,7 @@ export default function services() {
                     </div>
 
                     <div>
-                        <ul className={styles['topText2']}>
+                        <ul className={styles['topText265']}>
                             <li>Dedicated team to manage your account, offering personalized support</li>
                             <li>Timely preparation of year-end accounts and tax filings.</li>
                             <li>Full compliance with tax and registration obligations.</li>
