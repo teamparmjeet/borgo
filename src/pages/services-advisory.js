@@ -33,20 +33,20 @@ export default function services() {
         <Image className={styles['SF3']} src={SF3} />
 
         <div className={styles['top2']} >
-          <div className={styles['topButtons']}>
+          {/* <div className={styles['topButtons']}>
             <div className={styles['topButtonsText']}>  OUR SERVICES  </div>
             <div className={styles['topButton']}><Link href='/services-accounting/' style={{ textDecoration: 'none', color: '#DDDDDD' }} > ACCOUNTING </Link> </div>
             <div className={styles['topButton']}><Link href='/services-onlinebookkeepr' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ONLINE BOOKKEEPER </Link></div>
             <div className={styles['topButton']}><Link href='/services-advisory' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ADVISORY </Link></div>
-          </div>
+          </div> */}
           <div className={styles['topHead']}>
           Advisory 
           </div>
-          <div className={styles['topText']}>
-          Unlock your business’s potential with our expert business support services<br>
-            </br> From management reports to corporate finance and budgeting,<br>
-            </br>we provide actionable insights to help you make informed decisions and <br>
-            </br>drive growth. Our business support services offers the following benefits:
+          <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem',}}>
+          Unlock your business’s potential with our expert business support services
+             From management reports to corporate finance and budgeting,
+            we provide actionable insights to help you make informed decisions and 
+            drive growth. Our business support services offers the following benefits:
 
           </div>
           <div>

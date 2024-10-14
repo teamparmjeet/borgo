@@ -48,22 +48,22 @@ export default function services() {
                 <Image className={styles['SF3']} src={SF3} />
 
                 <div className={styles['top2']} >
-                    <div className={styles['topButtons']}>
+                    {/* <div className={styles['topButtons']}>
                         <div className={styles['topButtonsText']}>  OUR SERVICES  </div>
                         <div className={styles['topButton']}><Link href='/services-accounting/' style={{ textDecoration: 'none', color: '#DDDDDD' }} > ACCOUNTING </Link> </div>
                         <div className={styles['topButton']}><Link href='/services-onlinebookkeepr' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ONLINE BOOKKEEPER </Link></div>
                         <div className={styles['topButton']}><Link href='/services-advisory' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ADVISORY </Link></div>
-                    </div>
+                    </div> */}
                     <div className={styles['topHead']}>
                         Xero Migration,<br></br> Implementation <br></br> and Training
 
                     </div>
-                    <div className={styles['topText']}>
-                        Welcome to the future of accounting with Xero, cloud accounting <br>
-                        </br>software designed to make managing your business finances<br>
-                        </br> easier than ever. We offer seamless migration, setup, and<br>
-                        </br> training to help you get the most out of Xero, allowing you<br>
-                        </br> to focus on growing your business.
+                    <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem',}}>
+                        Welcome to the future of accounting with Xero, cloud accounting 
+                        software designed to make managing your business finances
+                         easier than ever. We offer seamless migration, setup, and
+                         training to help you get the most out of Xero, allowing you
+                         to focus on growing your business.
 
 
                     </div>
@@ -189,8 +189,26 @@ export default function services() {
 
 
                         </div>
+                    </div>
 
 
+                    <div style={{
+
+                        maxWidth: '700px', // Max width for better readability
+                        margin: '20px auto', // Center the div
+                        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)', // Shadow for depth
+                        padding: "20px"
+                    }}>
+                        <p style={{
+                            fontSize: '22px',
+                            color: '#fff',
+                            margin: '0 0 15px 0', // Margin adjustments
+                            lineHeight: '1.5', // Line height for better readability
+                            textAlign: 'center', // Center text
+                        }}>
+                            Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
+
+                        </p>
 
                     </div>
 
@@ -201,7 +219,7 @@ export default function services() {
             </div>
 
 
-         
+
 
 
 
@@ -276,6 +294,26 @@ export default function services() {
                                 </div>
                             </div>
                         </div>
+                    </div>
+                    <div style={{
+
+                        maxWidth: '700px', // Max width for better readability
+                        margin: '20px auto', // Center the div
+                        boxShadow: '0 4px 20px rgba(0, 0, 0, 0.2)', // Shadow for depth
+                        padding: "20px"
+                    }}>
+                        <p style={{
+                            fontSize: '22px',
+                            color: '#fff',
+                            margin: '0 0 15px 0', // Margin adjustments
+                            lineHeight: '1.5', // Line height for better readability
+                            textAlign: 'center', // Center text
+                        }}>
+                            Want to talk to us about your App Stack? We have team members who can review
+
+                            your processes and apps. If we can’t help directly, we’ll help find the right solution for you.
+                        </p>
+
                     </div>
 
 

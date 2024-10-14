@@ -9,17 +9,17 @@ import About2 from '../../public/assests/aboutgroup1.png'
 import About3 from '../../public/assests/aboutgroup0.png'
 import About4 from '../../public/assests/aboutgroup2.png'
 import PropCard from '../../public/assests/propcard.png';
-import Admi from '../../public/assests/Admi.png';
-import KalcAcc1 from '../../public/assests/KalcAcc1.jpg';
-import KalcAcc2 from '../../public/assests/KalcAcc2.jpg';
-import KalcAcc3 from '../../public/assests/KalcAcc3.jpg';
-import KalcAcc4 from '../../public/assests/KalcAcc4.jpg';
-import KalcAcc5 from '../../public/assests/KalcAcc5.jpg';
-import KalcAcc6 from '../../public/assests/KalcAcc6.jpg';
-import KalcAcc7 from '../../public/assests/KalcAcc7.jpg';
-import KalcAcc8 from '../../public/assests/KalcAcc8.jpg';
-import KalcAcc9 from '../../public/assests/KalcAcc9.jpg';
-import KalcAccTeam from '../../public/assests/KalcAccTeam.jpg';
+import KalcAcc2 from '../../public/assests/team/Ollie-Dixon.webp';
+import KalcAcc3 from '../../public/assests/team/Sarah-Learmouth.webp';
+import KalcAcc8 from '../../public/assests/team/Luciane-Lino.jpg';
+
+import KalcAcc1 from '../../public/assests/team/Allan Egan.webp';
+import KalcAcc4 from '../../public/assests/team/Julio Domingos.webp';
+import KalcAcc5 from '../../public/assests/team/Mingli Song.webp';
+import KalcAcc6 from '../../public/assests/team/Michael McKenna.webp';
+import KalcAcc7 from '../../public/assests/team/Jelena Paguba.webp';
+
+
 import Arrow from '../../public/assests/arrow.png';
 import Scroll from '../../public/assests/scroll.png';
 import mobileFill from '../../public/assests/mobileFill.png'
@@ -127,118 +127,44 @@ export default function About() {
 
       <Box className="width-80 width-100-sm" sx={{ margin: 'auto' }}>
         <Grid container className='mt-20-sm mt-100 div-center'>
-          <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
-            <div className='poly-size'>
-              <div className={styles['poly-about2']} ></div>
-              <Box className='poly'>
-                <Box className='poly2'>
-                  <Image src={KalcAcc9} width='100%' height="100%" className='responsive-image-about' />
-                </Box>
-                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Allan Egan</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Co-Founder and Managing Director</Typography>
-                </Box>
-              </Box>
-              <Typography className='content color-light-grey weight-400 font-14'>
-                Allan has over 15 years experience working in both accounting and financial services helping business owners build and grow their business "at Borgo at our aim is to provide an exceptional client experience,
-                we can't do that without an exceptional team, I am proud of the team that we are building at Borgo and their efforts to deliver this for our clients "
-              </Typography>
-            </div>
-          </Grid>
 
           <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
             <div className='poly-size'>
               <div className={styles['poly-about2']} ></div>
-              <Box className='poly'>
-                <Box className='poly2'>
-                  <Image src={KalcAcc6} width='100%' height="100%" className='responsive-image-about' />
-                </Box>
-                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Martyn Cahill</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Client Manager</Typography>
-                </Box>
-              </Box>
-              <Typography className='content color-light-grey weight-400 font-14'>
-                Martyn combines accounting expertise with the latest technology to provide an innovative and personal services for our clients.
-                If there is a way to automate or improve a process he wants to know about it! Martyn is a qualified accountant with the Association of Chartered Certified Accountants (ACCA) and is also a member of Accounting Technicians Ireland (ATI).
-              </Typography>
-            </div>
-          </Grid>
-
-          <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
-            <div className='poly-size'>
-              <div className={styles['poly-about1']} ></div>
-              <Box className='poly'>
-                <Box className='poly2'>
-                  <Image src={KalcAcc5} width='100%' height="100%" className='responsive-image-about' />
-                </Box>
-                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Ollie Dixon</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Client Manager</Typography>
-                </Box>
-              </Box>
-              <Typography className='content color-light-grey weight-400 font-14'>
-                Ollie brings a wealth of experience and knowledge to his role as a Client Manager.
-                He is passionate about accounting and enjoys working closely with clients to give them the best advice and add value to their business.
-                Ollie is a qualified accountant with the Association of Chartered Certified Accountants (ACCA) and is also a member of Accounting Technicians Ireland (ATI).
-              </Typography>
-            </div>
-          </Grid>
-
-          <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
-            <div className='poly-size'>
-              <div className={styles['poly-about1']} ></div>
-              <Box className='poly'>
-                <Box className='poly2'>
-                  <Image src={KalcAcc2} width='100%' height="100%" className='responsive-image-about' />
-                </Box>
-                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Gillian Nolan</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Senior Production Manager</Typography>
-                </Box>
-              </Box>
-              <Typography className='content color-light-grey weight-400 font-14'>
-                Gillian is responsible for the quality and delivery of all the accounting jobs in Borgo .
-                Prior to joining to Borgo Gillian worked as the Practice Manager with Shelbourne Accountants and as a Financial Accountant with Aviva Life & Pensions Ireland Ltd.
-                She brings valuable experience in the accounting industry to the Borgo team.
-              </Typography>
-            </div>
-          </Grid>
-
-          {/* <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
-            <div className='poly-size'>
-              <div className={styles['poly-about1']} ></div>
-              <Box className='poly'>
-                <Box className='poly2'>
-                  <Image src={KalcAcc8} width='100%' height="100%" className='responsive-image-about' />
-                </Box>
-                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Tina Zapryanova</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Senior Accountant</Typography>
-                </Box>
-              </Box>
-              <Typography className='content color-light-grey weight-400 font-14'>
-                Tina is responsible for income tax compliance and planning with Borgo.
-                Tina is a qualified accountant with the Association of Chartered Certified Accountants (ACCA) and has over 15 years experience in the accounting industry.
-              </Typography>
-            </div>
-          </Grid> */}
-
-          <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
-            <div className='poly-size'>
-              <div className={styles['poly-about']} ></div>
               <Box className='poly'>
                 <Box className='poly2'>
                   <Image src={KalcAcc1} width='100%' height="100%" className='responsive-image-about' />
                 </Box>
                 <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Sarah McDonnell</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Payroll Specialist</Typography>
+                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Allan Egan</Typography>
+                  <Typography className='color-grey weight-400 font-16'>Co-Founder and Managing Director
+                  </Typography>
                 </Box>
               </Box>
               <Typography className='content color-light-grey weight-400 font-14'>
-                Sarah is responsible for payroll processing and support with Borgo.
-                Sarah is a qualified accounting technician with Accounting Technicians Ireland (ATI) and is currently studying towards the Certificate in Payroll Techniques with IPASS.
+                Allan, Managing Director at Borgo, brings over 18 years of experience in accounting and financial services, helping business owners grow and succeed. Passionate about integrating technology into accounting, Allan is dedicated to finding innovative solutions that enhance client experiences. “At Borgo, our goal is to provide an exceptional client experience, and that starts with an exceptional team. I’m proud of the team we’re building and their commitment to delivering outstanding results for our clients.”
+
+              </Typography>
+            </div>
+          </Grid>
+
+          <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
+            <div className='poly-size'>
+              <div className={styles['poly-about2']} ></div>
+              <Box className='poly'>
+                <Box className='poly2'>
+                  <Image src={KalcAcc2} width='100%' height="100%" className='responsive-image-about' />
+                </Box>
+                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
+                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Ollie Dixon</Typography>
+                  <Typography className='color-grey weight-400 font-16'>Senior Client Manager
+
+                  </Typography>
+                </Box>
+              </Box>
+              <Typography className='content color-light-grey weight-400 font-14'>
+                Ollie, our Senior Client Manager, brings a wealth of experience and knowledge to the team. As a qualified accountant with the Association of Chartered Certified Accountants (ACCA) and a member of Accounting Technicians Ireland (ATI), Ollie is passionate about business and works closely with clients to provide them with the best advice and guidance. His enthusiasm and expertise make him a trusted partner for our clients.
+
               </Typography>
             </div>
           </Grid>
@@ -251,55 +177,146 @@ export default function About() {
                   <Image src={KalcAcc3} width='100%' height="100%" className='responsive-image-about' />
                 </Box>
                 <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Anna Palmer</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Accounts Assistant</Typography>
+                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Sarah Learmouth
+                  </Typography>
+                  <Typography className='color-grey weight-400 font-16'>Client Manager
+
+
+                  </Typography>
                 </Box>
               </Box>
               <Typography className='content color-light-grey weight-400 font-14'>
-                Anna is a trainee accountant with Borgo and is currently studying towards her ACCA examinations.
-                Anna provides accounting and bookkeeping support to the team.
+                Sarah, a Chartered Tax Adviser (CTA) and qualified accountant with the Association of Chartered Certified Accountants (ACCA), plays a key role as a Client Manager at Borgo. Her extensive expertise in both accounting and tax ensures that clients receive not only professional guidance but also a personal service.
+
               </Typography>
             </div>
           </Grid>
 
           <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
             <div className='poly-size'>
-              <div className={styles['poly-about']} ></div>
+              <div className={styles['poly-about2']} ></div>
               <Box className='poly'>
                 <Box className='poly2'>
                   <Image src={KalcAcc4} width='100%' height="100%" className='responsive-image-about' />
                 </Box>
                 <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Holly McEntee</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Bookkeeper</Typography>
+                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Julio Domingos
+
+                  </Typography>
+                  <Typography className='color-grey weight-400 font-16'>Production Manager
+
+
+
+                  </Typography>
                 </Box>
               </Box>
               <Typography className='content color-light-grey weight-400 font-14'>
-                Holly is an intern with Borgo and will return to college to complete her BA Honours in Accounting and Finance with National College of Ireland.
-                Holly provides accounting and bookkeeping support to the team.
+                Julio oversees the quality and delivery of accounting services for his team at Borgo. Before joining Borgo, he worked with RSM Ireland, where he was recognized as the Part-Qualified Accountant of the Year at the Irish Accountancy Awards. Julio brings enthusiasm and energy to his role, working with his team to deliver for every client.
+
               </Typography>
             </div>
           </Grid>
 
           <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
             <div className='poly-size'>
-              <div className={styles['poly-about']} ></div>
+              <div className={styles['poly-about2']} ></div>
+              <Box className='poly'>
+                <Box className='poly2'>
+                  <Image src={KalcAcc5} width='100%' height="100%" className='responsive-image-about' />
+                </Box>
+                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
+                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Mingli Song
+
+
+                  </Typography>
+                  <Typography className='color-grey weight-400 font-16'>Production Manager
+
+
+
+
+                  </Typography>
+                </Box>
+              </Box>
+              <Typography className='content color-light-grey weight-400 font-14'>
+                Mingli oversees the quality and timely delivery of all accounting services for her team at Borgo. With valuable experience from her previous roles at Profit Pal and JPA Brenson Lawlor, Mingli ensures that each client receives exceptional service. A true team player, she works closely with her team to maintain high standards and deliver results that meet the different needs of each client.
+              </Typography>
+            </div>
+          </Grid>
+
+          <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
+            <div className='poly-size'>
+              <div className={styles['poly-about2']} ></div>
+              <Box className='poly'>
+                <Box className='poly2'>
+                  <Image src={KalcAcc6} width='100%' height="100%" className='responsive-image-about' />
+                </Box>
+                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
+                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Michael McKenna
+
+                  </Typography>
+                  <Typography className='color-grey weight-400 font-16'>Trainee Accountant
+                  </Typography>
+                </Box>
+              </Box>
+              <Typography className='content color-light-grey weight-400 font-14'>
+                As a Trainee Accountant at Borgo, Michael assists with a variety of services, including accounting, tax, bookkeeping, and payroll. Eager to develop skills and gain experience, Michael works closely with the team to ensure that clients receive accurate and timely support in managing their financial needs.
+
+              </Typography>
+            </div>
+          </Grid>
+
+          <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
+            <div className='poly-size'>
+              <div className={styles['poly-about2']} ></div>
               <Box className='poly'>
                 <Box className='poly2'>
                   <Image src={KalcAcc7} width='100%' height="100%" className='responsive-image-about' />
                 </Box>
                 <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
-                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Svetlana Stoyanova</Typography>
-                  <Typography className='color-grey weight-400 font-16'>Accounts Manager</Typography>
+                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Jelena Paguba
+
+
+                  </Typography>
+                  <Typography className='color-grey weight-400 font-16'>Part Qualified Accountant
+
+                  </Typography>
                 </Box>
               </Box>
               <Typography className='content color-light-grey weight-400 font-14'>
-                Svetlana works in our accounts and admin department and is responsible for the day - to - day operational tasks of Borgo.
+                As a Part-Qualified Accountant at Borgo, Jelena assists with accounting, tax, bookkeeping, and payroll. She supports the senior team with compliance and client support to ensure our clients receive an exceptional service.
               </Typography>
             </div>
           </Grid>
-          
+
+          <Grid item xs={12} sm={12} md={6} lg={4} xl={4} className='mt-50 div-center position-relative'>
+            <div className='poly-size'>
+              <div className={styles['poly-about2']} ></div>
+              <Box className='poly'>
+                <Box className='poly2'>
+                  <Image src={KalcAcc8} width='100%' height="100%" className='responsive-image-about' />
+                </Box>
+                <Box className='position-absolute' sx={{ bottom: '50px', paddingInline: '20px' }}>
+                  <Typography className='color-light-grey font-24 weight-600 font-mulish line-height-28'>Luciane Lino
+
+
+
+                  </Typography>
+                  <Typography className='color-grey weight-400 font-16'>Office Assistant
+
+                  </Typography>
+                </Box>
+              </Box>
+              <Typography className='content color-light-grey weight-400 font-14'>
+                Luciane supports the Borgo team with a variety of admin and company secretarial duties, ensuring smooth day-to-day operations. In addition to her office responsibilities, she is currently studying towards her financial management accounting exams, to developing her skills and contribute even more to the team and our clients.
+
+              </Typography>
+            </div>
+          </Grid>
+
+
         </Grid>
+
+
       </Box>
 
       <Box className='mt-100-sm mt-300'>

@@ -74,7 +74,7 @@ export default function Navbar(props) {
                 <ListItem>
                     <ListItemButton>
                         <Link href="/about" style={{ textDecoration: 'none', color: '#DDDDDD' }}>
-                            <Typography className='font-32'>About</Typography>
+                            <Typography className='font-32'>About Us</Typography>
                         </Link>
                     </ListItemButton>
                 </ListItem>
@@ -153,10 +153,10 @@ export default function Navbar(props) {
                     >
                         <MenuIcon />
                     </IconButton>
-                    <Box sx={{ display: { xs: 'none', sm: 'block' }, left: 0, right: 0, marginLeft: 'auto', marginRight: 'auto', width: '518px', position: 'absolute' }}>
+                    <Box sx={{ display: { xs: 'none', sm: 'block' }, left: 0, right: 0, marginLeft: 'auto', marginRight: 'auto', width: '548px', position: 'absolute' }}>
                         <Link href="/about" style={{ textDecoration: 'none' }}>
                             <Button className='font-mulish color-light-grey weight-700 font-16' sx={{ textTransform: 'capitalize' }}>
-                                About
+                                About Us
                             </Button>
                         </Link>
                         <Link href="/process" style={{ textDecoration: 'none' }}>

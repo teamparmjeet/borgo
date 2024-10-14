@@ -33,20 +33,20 @@ export default function services() {
         <Image className={styles['SF3']} src={SF3} />
 
         <div className={styles['top2']} >
-          <div className={styles['topButtons']}>
+          {/* <div className={styles['topButtons']}>
             <div className={styles['topButtonsText']}>  OUR SERVICES  </div>
             <div className={styles['topButton']}><Link href='/services-accounting/' style={{ textDecoration: 'none', color: '#DDDDDD' }} > ACCOUNTING </Link> </div>
             <div className={styles['topButton']}><Link href='/services-onlinebookkeepr' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ONLINE BOOKKEEPER </Link></div>
             <div className={styles['topButton']}><Link href='/services-advisory' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ADVISORY </Link></div>
-          </div>
+          </div> */}
           <div className={styles['topHead']}>
             Online Bookkeeper
           </div>
-          <div className={styles['topText']}>
-            Maintain accurate and up to date financial information with our<br>
-            </br> online bookkeeping services. You will be assigned a dedicated<br>
-            </br> bookkeeper to reconcile your accounts and manage your business<br>
-            </br> admin tasks. Our online bookkeeping offers the following benefits:
+          <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem',}}>
+            Maintain accurate and up to date financial information with our
+             online bookkeeping services. You will be assigned a dedicated
+             bookkeeper to reconcile your accounts and manage your business
+             admin tasks. Our online bookkeeping offers the following benefits:
           </div>
           <div>
             <ul className={styles['topText2']}>

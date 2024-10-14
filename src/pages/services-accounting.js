@@ -33,33 +33,29 @@ export default function services() {
                 <Image className={styles['SF3']} src={SF3} />
 
                 <div className={styles['top2']} >
-                    <div className={styles['topButtons']}>
+                    {/* <div className={styles['topButtons']}>
                         <div className={styles['topButtonsText']}>  OUR SERVICES  </div>
                         <div className={styles['topButton']}><Link href='/services-accounting/' style={{ textDecoration: 'none', color: '#DDDDDD' }} > ACCOUNTING </Link> </div>
                         <div className={styles['topButton']}><Link href='/services-onlinebookkeepr' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ONLINE BOOKKEEPER </Link></div>
                         <div className={styles['topButton']}><Link href='/services-advisory' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ADVISORY </Link></div>
-                    </div>
+                    </div> */}
                     <div className={styles['topHead']}>
                         Accounting and
                         <br /> Compliance Services
                     </div>
-                    <div className={styles['topText']}>
-                        Ensure your business stays compliant with expert year-end <br>
-                        </br>accounting services. Our team will prepare your year end accounts,<br>
-                        </br> handle your tax obligations (Revenue), and submitting annual returns <br>
-                        </br>(CRO). As your registered tax agent, we can manage your registrations,<br>
-                        </br> compliance and any queries, providing peace of mind to you and your <br>
-                        </br> business. Our accounting and compliance services offers the following benefits:
+                    <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem',}}>
+                        Ensure your business stays compliant with expert year-end accounting services. Our team will prepare your year-end accounts, handle your tax obligations (Revenue), and submit annual returns (CRO). As your registered tax agent, we can manage your registrations, compliance, and any queries, providing peace of mind to you and your business. Our accounting and compliance services offer the following benefits:
                     </div>
+
                     <div>
-                        <ul  className={styles['topText2']}>
+                        <ul className={styles['topText2']}>
                             <li>Dedicated team to manage your account, offering personalized support</li>
                             <li>Timely preparation of year-end accounts and tax filings.</li>
                             <li>Full compliance with tax and registration obligations.</li>
                             <li>Proactive approach to filing, helping you plan ahead and avoid stress.</li>
                         </ul>
                     </div>
-                    
+
                     <div >
                         <Image className={styles['scroll']} src={scroll} />
                     </div>

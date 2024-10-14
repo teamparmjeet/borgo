@@ -33,12 +33,12 @@ export default function services() {
         <Image className={styles['SF3']} src={SF3} />
 
         <div className={styles['top']} >
-          <div className={styles['topButtons']}>
+          {/* <div className={styles['topButtons']}>
             <div className={styles['topButtonsText']}>  OUR SERVICES  </div>
             <div className={styles['topButton']}><Link href='/services-accounting/' style={{ textDecoration: 'none', color: '#DDDDDD' }} > ACCOUNTING </Link> </div>
             <div className={styles['topButton']}><Link href='/services-onlinebookkeepr' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ONLINE BOOKKEEPER </Link></div>
             <div className={styles['topButton']}><Link href='/services-advisory' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ADVISORY </Link></div>
-          </div>
+          </div> */}
           <div className={styles['topHead']}>
             Your partner <br /> in business
           </div>
