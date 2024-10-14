@@ -37,6 +37,7 @@ export default function Navbar(props) {
     const container = window !== undefined ? () => window().document.body : undefined;
     const drawerWidth = '100%';
     const [dropdownOpen, setDropdownOpen] = useState(false);
+    const [dropdownOpenmobile, setDropdownOpenmobile] = useState(false);
     const handleDrawerToggle = () => {
         setMobileOpen((prevState) => !prevState);
     };
@@ -49,8 +50,14 @@ export default function Navbar(props) {
     const handleHoverOut = () => {
         setDropdownOpen(false);
     };
+
+    const handleClickmobile = () => {
+        setDropdownOpenmobile(!dropdownOpenmobile);
+    };
+
+
     const drawer = (
-        <Box onClick={handleDrawerToggle}
+        <Box
             className={'background-blue color-light-grey'}
             sx={{ textAlign: 'center', overflowX: 'hidden', overflowY: 'scroll' }}>
             <Box sx={{ justifyContent: 'space-between', display: 'flex', margin: '30px', marginTop: '40px' }}>
@@ -86,10 +93,53 @@ export default function Navbar(props) {
                     </ListItemButton>
                 </ListItem>
                 <ListItem>
-                    <ListItemButton>
-                        <Link href="/services" style={{ textDecoration: 'none', color: '#DDDDDD' }}>
-                            <Typography className='font-32'>Our Services</Typography>
-                        </Link>
+                
+                    <ListItemButton onClick={handleClickmobile} sx={{ display: "flex", flexDirection: "column", alignItems: "flex-start" }}>
+                        {/* <Link href="/services" style={{ textDecoration: 'none', color: '#DDDDDD' }}> */}
+                        <Typography className='font-32'>Our Services</Typography>
+                        {/* </Link> */}
+                        <div>
+                            {dropdownOpenmobile && (
+                                <Box
+                                    sx={{
+                                      
+                                        backgroundColor: '#17172C',
+                                        boxShadow: '0px 4px 10px rgba(0, 0, 0, 0.1)',
+                                        zIndex: 9999,
+                                        borderRadius: '4px',
+                                     
+                                    }}
+                                >
+                                    <List>
+                                        <ListItem>
+                                            <Link href="/services" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
+                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Our Services</Typography>
+                                            </Link>
+                                        </ListItem>
+                                        <ListItem>
+                                            <Link href="/services-accounting" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
+                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Accounting and Compliance</Typography>
+                                            </Link>
+                                        </ListItem>
+                                        <ListItem>
+                                            <Link href="/services-onlinebookkeepr" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
+                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Online Bookkeeper</Typography>
+                                            </Link>
+                                        </ListItem>
+                                        <ListItem>
+                                            <Link href="/services-advisory" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
+                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Advisory</Typography>
+                                            </Link>
+                                        </ListItem>
+                                        <ListItem>
+                                            <Link href="/services-xero" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
+                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Xero Migration</Typography>
+                                            </Link>
+                                        </ListItem>
+                                    </List>
+                                </Box>
+                            )}
+                        </div>
                     </ListItemButton>
                 </ListItem>
                 <ListItem>
