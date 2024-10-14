@@ -388,7 +388,7 @@
     line-height: 72px !important;
     color: #DDDDDD !important;
     letter-spacing: -1.2px !important;
-    margin-left: 30px !important;
+    /* margin-left: 30px !important; */
 }
 
 .midSectionText {
@@ -407,6 +407,7 @@
 
 .midSectionCard {
     display: flex !important;
+    gap: 100px!important;
     margin-bottom: 20px !important;
 }
 
@@ -421,7 +422,7 @@
     width: 538px !important;
     height: 798px !important;
     position: relative !important;
-    margin-right: 100px !important;
+    /* margin-right: 100px !important; */
 }
 
 .part5 {
@@ -735,7 +736,7 @@
     line-height: 72px !important;
     color: #DDDDDD !important;
     letter-spacing: -1.2px !important;
-    margin-left: 30px !important;
+    /* margin-left: 30px !important; */
 }
 
 .midSection22 {
@@ -761,6 +762,24 @@
     border-radius: 20px;
 
 }
+.klo111 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #1b1b37;
+    color: white;
+    font-size: 25px;
+    width: 460px;
+    margin: 0 auto;
+    margin-top: 40px;
+    padding: 20px;
+    box-shadow: 0 0 5px;
+    border-radius: 20px;
+
+}
+
+
 
 .klo2 {
     display: flex;
@@ -796,6 +815,24 @@
         grid-template-columns: 1fr;
         /* Switch to a single column */
     }
+
+    .klo111 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-color: #1b1b37;
+        color: white;
+        font-size: 25px;
+        width: 365px;
+        margin: 0 auto;
+        margin-top: 40px;
+        padding: 20px;
+        box-shadow: 0 0 5px;
+        border-radius: 20px;
+    
+    }
+    
 
     .imageContainer {
         text-align: center;

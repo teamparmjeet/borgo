@@ -103,7 +103,7 @@ export default function About() {
       </Box>
 
       <Box className='width-80 width-80-sm margin-auto position-relative mt-100-sm' >
-        <Typography className='font-60 font-24-sm weight-300 weight-600-sm text-center font-mulish color-light-grey mt-20-sm line-height-72 line-height-29-sm' sx={{ marginTop: '300px' }}>
+        <Typography className='font-58 font-24-sm weight-300 weight-600-sm text-center font-mulish color-light-grey mt-20-sm line-height-72 line-height-29-sm' sx={{ marginTop: '300px' }}>
           “Their seamless onboarding process and expertise in Xero made the transition smooth and effortless”
         </Typography>
       </Box>

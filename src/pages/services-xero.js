@@ -238,13 +238,13 @@ export default function services() {
                     <Typography style={{ marginTop: "-18px" }} className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
                         Ready to switch
                     </Typography>
-                    <Typography className="weight-600 font-24 width-80 width-100-md font-mulish line-height-36">
-                        Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
+                    <Typography className="weight-600 font-24 width-100 width-100-md font-mulish line-height-36">
+                        Ready to switch to Xero? We’ll make the transition painless and provide all the support you need along the way. Contact us for a customized quote today!
                     </Typography>
                     <div className="box-inside" style={{ marginTop: "10px" }}>
                         <Typography
                             className="read-more color-light-grey font-mulish"
-                            style={{ width: "158px", height: "36px", paddingInline: "14px", paddingBlock: "12px" }}
+                            style={{ width: "158px", marginTop: "15px", height: "36px", paddingInline: "14px", paddingBlock: "12px" }}
                         >
                             <a
                                 href="https://calendly.com/d/z84-783-bw8/discovery-call" target='_blank' style={{ textDecoration: "none", color: "#DDDDDD" }}
@@ -320,18 +320,18 @@ export default function services() {
                             </div>
                         </div>
 
-                        <div className={styles['klo1']}>
-                            <p className={styles['sectionTitle']}>Finance</p>
-                            <div className={styles['klo2']}>
-                                <div className={styles['imageContainer']}>
-                                    {/* <h4 className={styles['imageTitle']}>Swoop</h4> */}
-                                    <Image src={img1} className={styles['logo22']} />
-                                </div>
+
+                    </div>
+
+                    <div className={styles['klo111']}>
+                        <p className={styles['sectionTitle']}>Finance</p>
+                        <div className={styles['klo2']}>
+                            <div className={styles['imageContainer']}>
+                                {/* <h4 className={styles['imageTitle']}>Swoop</h4> */}
+                                <Image src={img1} className={styles['logo22']} />
                             </div>
                         </div>
                     </div>
-
-
 
                 </div>
 
@@ -355,7 +355,7 @@ export default function services() {
                     <div className="box-inside" style={{ marginTop: "10px", }}>
                         <Typography
                             className="read-more color-light-grey font-mulish"
-                            style={{ width: "158px", height: "36px", paddingInline: "14px", paddingBlock: "12px" }}
+                            style={{ width: "158px", marginTop: "15px", height: "36px", paddingInline: "14px", paddingBlock: "12px" }}
                         >
                             <a
                                 href="https://calendly.com/d/z84-783-bw8/discovery-call" target='_blank' style={{ textDecoration: "none", color: "#DDDDDD" }}
