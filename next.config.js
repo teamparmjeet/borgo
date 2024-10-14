@@ -33,6 +33,12 @@ const nextConfig = {
       '/eiis_blog': { page: '/eiis_blog' },
       '/latereturn_blog': { page: '/latereturn_blog' },
       '/err_blog': { page: '/err_blog' },
+
+      '/services-accounting': { page: '/services-accounting' },
+      '/services-onlinebookkeepr': { page: '/services-onlinebookkeepr' },
+      '/services-advisory': { page: '/services-advisory' },
+      '/services-xero': { page: '/services-xero' },
+
     };
   },
 }
