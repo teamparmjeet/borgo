@@ -39,6 +39,12 @@ const nextConfig = {
       '/services-advisory': { page: '/services-advisory' },
       '/services-xero': { page: '/services-xero' },
 
+
+      '/outsourcing_blog': { page: '/outsourcing_blog' },
+      '/profitability_blog': { page: '/profitability_blog' },
+      '/enterpriseIreland_blog': { page: '/enterpriseIreland_blog' },
+
+
     };
   },
 }
