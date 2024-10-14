@@ -125,8 +125,8 @@ export default function services() {
 
 
 
-            <div className={styles['midSection1']} style={{ padding: '50px 20px' }}>
-                <div style={{ maxWidth: '800px', margin: '0 auto', }}>
+            <div className={styles['midSection1']} style={{ padding: '10px 20px' }}>
+                <div style={{ maxWidth: '960px', margin: '0 auto', }}>
                     <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333' }}>Benefits of Using Xero
                     </h2>
 
@@ -160,7 +160,7 @@ export default function services() {
                                     padding: '5px',
                                     borderRadius: '10px',
                                     boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-                              
+
                                     transition: 'transform 0.3s ease',
                                 }}
                             // className="feature-card"
@@ -179,14 +179,14 @@ export default function services() {
             </div>
 
 
-            <div className={styles['midSection1']} style={{ padding: '50px 20px' }}>
-                <div style={{ maxWidth: '800px', margin: '0 auto', }}>
-                <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
+            <div className={styles['midSection1']} style={{ padding: '10px 20px' }}>
+                <div style={{ maxWidth: '960px', margin: '0 auto', }}>
+                    <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
 
 
                     <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
                         {[
-                             {
+                            {
                                 title: 'Bank Feeds',
                                 description: 'Connect your bank account directly to Xero to import your bank information. If your bank doesn’t offer this service, there is a simple bank import function.',
                                 icon: '🏦'
@@ -209,7 +209,7 @@ export default function services() {
                                     padding: '5px',
                                     borderRadius: '10px',
                                     boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-                              
+
                                     transition: 'transform 0.3s ease',
                                 }}
                             // className="feature-card"
@@ -228,14 +228,14 @@ export default function services() {
             </div>
 
 
-        
+
 
 
 
             <Box className="div-center position-relative">
 
                 <div className={styles["schedule"]}>
-                    <Typography className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
+                    <Typography style={{ marginTop: "-18px" }} className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
                         Ready to switch
                     </Typography>
                     <Typography className="weight-600 font-24 width-80 width-100-md font-mulish line-height-36">
@@ -344,7 +344,7 @@ export default function services() {
             <Box className="div-center position-relative">
 
                 <div className={styles["schedule"]}>
-                    <Typography className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
+                    <Typography style={{ marginTop: "-18px" }} className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
                         Want to talk
                     </Typography>
                     <Typography className="weight-600 font-24 width-100 width-100-md font-mulish line-height-36">
@@ -372,7 +372,7 @@ export default function services() {
             <div className={styles['midSection2']}>
                 <div >
                     <div className={styles['midSectionHead']}>The Software</div>
-                    <div className={styles['midSectionText']}>At Borgo we only use software that we trust and are proud to use</div>
+                    <div style={{ color: "#fff", marginBottom: "30px", marginTop: "30px", fontSize: "24px" }}>At Borgo we only use software that we trust and are proud to use</div>
 
                     <Grid className={styles['midSectionCard']}>
                         <Grid className={styles['part1']}>

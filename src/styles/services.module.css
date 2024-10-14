@@ -357,6 +357,15 @@
     padding-inline: 10px !important;
 }
 
+.midSection5 {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center;
+    margin-bottom: 200px !important;
+    margin-top: 180px !important;
+    padding-inline: 10px !important;
+}
+
 .midSectionHead {
     align-self: start;
     font-family: 'Mulish' !important;
@@ -803,7 +812,7 @@
 .sectionTitle {
     font-size: 1.5rem;
     font-weight: bold;
-    color: #C54D1F;
+    color: #fff;
    
     margin-bottom: 15px;
     

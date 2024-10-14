@@ -129,7 +129,7 @@ export default function services() {
       </div >
 
 
-      <div className={styles['midSection']}>
+      <div className={styles['midSection5']}>
       
 
       </div>
