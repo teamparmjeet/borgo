@@ -502,7 +502,7 @@ export default function Home() {
                 </div>
             </Box>
 
-            <div className={`${styles['card-scroll']} ${styles['custom-scroll']}`}>
+            <div id="1" className={`${styles['card-scroll']} ${styles['custom-scroll']}`}>
 
                 <div className='div-center position-relative m-inline-40 m-inline-10-sm animation-cards'>
                     <div className={styles['card-top-box']} ></div>

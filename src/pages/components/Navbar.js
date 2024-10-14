@@ -112,28 +112,28 @@ export default function Navbar(props) {
                                 >
                                     <List>
                                         <ListItem>
-                                            <Link href="/services" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
-                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Our Services</Typography>
+                                            <Link href="/services" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
+                                                <Typography className=' font-32'>Our Services</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
-                                            <Link href="/services-accounting" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
-                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Accounting and Compliance</Typography>
+                                            <Link href="/services-accounting" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
+                                                <Typography className=' font-32'>Accounting and Compliance</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
-                                            <Link href="/services-onlinebookkeepr" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
-                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Online Bookkeeper</Typography>
+                                            <Link href="/services-onlinebookkeepr" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
+                                                <Typography className=' font-32'>Online Bookkeeper</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
-                                            <Link href="/services-advisory" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
-                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Advisory</Typography>
+                                            <Link href="/services-advisory" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
+                                                <Typography className=' font-32'>Advisory</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
-                                            <Link href="/services-xero" style={{ textDecoration: 'none', color: '#DDDDDD',borderBottom:"1px solid white" }}>
-                                                <Typography sx={{ padding: '5px',fontSize:"22px" }}>Xero Migration</Typography>
+                                            <Link href="/services-xero" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
+                                                <Typography className=' font-32'>Xero Migration</Typography>
                                             </Link>
                                         </ListItem>
                                     </List>
@@ -239,22 +239,22 @@ export default function Navbar(props) {
                                     <List>
                                         <ListItem>
                                             <Link href="/services-accounting" style={{ textDecoration: 'none', color: '#DDDDDD' }}>
-                                                <Typography sx={{ padding: '5px' }}>Accounting and Compliance</Typography>
+                                                <Typography className="font-mulish color-light-grey weight-700 font-16" sx={{ textTransform: 'capitalize' }}>Accounting and Compliance</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
                                             <Link href="/services-onlinebookkeepr" style={{ textDecoration: 'none', color: '#DDDDDD' }}>
-                                                <Typography sx={{ padding: '5px' }}>Online Bookkeeper</Typography>
+                                                <Typography className="font-mulish color-light-grey weight-700 font-16" sx={{ textTransform: 'capitalize' }}>Online Bookkeeper</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
                                             <Link href="/services-advisory" style={{ textDecoration: 'none', color: '#DDDDDD' }}>
-                                                <Typography sx={{ padding: '5px' }}>Advisory</Typography>
+                                                <Typography className="font-mulish color-light-grey weight-700 font-16" sx={{ textTransform: 'capitalize' }}>Advisory</Typography>
                                             </Link>
                                         </ListItem>
                                         <ListItem>
                                             <Link href="/services-xero" style={{ textDecoration: 'none', color: '#DDDDDD' }}>
-                                                <Typography sx={{ padding: '5px' }}>Xero Migration</Typography>
+                                                <Typography className="font-mulish color-light-grey weight-700 font-16" sx={{ textTransform: 'capitalize' }}>Xero Migration</Typography>
                                             </Link>
                                         </ListItem>
                                     </List>

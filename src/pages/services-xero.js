@@ -88,13 +88,13 @@ export default function services() {
 
 
                     </div>
-                    <div className={styles['topText']}>
-                        At Borgo we believe that Xero is the best cloud accounting software<br>
-                        </br> for small business and we’re proud to be a Xero Partner.<br>
-                        </br> All of our accounting and bookkeeping staff are Xero Certified<br>
-                        </br> and our Managing Director sits on the Xero Partner Advisory<br>
-                        </br> Council (XPAC) for Ireland so you can be assured that you are<br>
-                        </br> in good hands.
+                    <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem', }}>
+                        At Borgo we believe that Xero is the best cloud accounting software
+                        for small business and we’re proud to be a Xero Partner.
+                        All of our accounting and bookkeeping staff are Xero Certified
+                        and our Managing Director sits on the Xero Partner Advisory
+                        Council (XPAC) for Ireland so you can be assured that you are
+                        in good hands.
 
 
                         <p>At Borgo we can handle every step of your Xero journey:
@@ -125,113 +125,123 @@ export default function services() {
 
 
 
-            <div className={styles['midSection22']}>
-                <div >
-                    <div className={styles["mb55"]}>Benefits of Using Xero</div>
+            <div className={styles['midSection22']} style={{ padding: '50px 20px' }}>
+                <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+                    <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
 
-                    <div className={styles['midSectionCard2']}>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
-                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Easy to Use -</p>
-                                <p style={{ fontSize: '24px', color: '#fff' }}>
-                                    Non-accountants love how simple Xero is to navigate.
-                                </p>
+                    <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+                        {[
+                            {
+                                title: 'Easy to Use',
+                                description: ' Non-accountants love how simple Xero is to navigate.',
+                                icon: '🏦'
+                            },
+                            {
+                                title: 'Real-Time Data',
+                                description: 'View your financials anytime, with up-to-date information.',
+                                icon: '🤝'
+                            },
+                            {
+                                title: 'Collaboration',
+                                description: ' Share access with your team or accountant for seamless collaboration.',
+                                icon: '🔌'
+                            },
+                            {
+                                title: 'Flexible Add-Ons',
+                                description: ' Customize Xero with hundreds of integrations to suit your business',
+                                icon: '🔌'
+                            }
+                        ].map((feature, index) => (
+                            <div
+                                key={index}
+                                style={{
+
+                                    padding: '20px',
+                                    borderRadius: '10px',
+                                    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    gap: '15px',
+                                    transition: 'transform 0.3s ease',
+                                }}
+                            // className="feature-card"
+                            >
+                                {/* <div style={{ fontSize: '30px', color: '#3498db' }}>{feature.icon}</div> */}
+                                <div>
+                                    <h3 style={{ fontSize: '24px', fontWeight: 'bold', color: '#fff' }}>{feature.title}</h3>
+                                    <p style={{ fontSize: '24px', color: '#fff' }}>{feature.description}</p>
+                                </div>
                             </div>
-
-                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Real-Time Data -</p>
-                                <p style={{ fontSize: '24px', color: '#fff' }}>
-                                    View your financials anytime, with up-to-date information.
-                                </p>
-                            </div>
-
-                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Collaboration -</p>
-                                <p style={{ fontSize: '24px', color: '#fff' }}>
-                                    Share access with your team or accountant for seamless collaboration.
-                                </p>
-                            </div>
-
-
-                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Flexible Add-Ons -</p>
-                                <p style={{ fontSize: '24px', color: '#fff' }}>
-                                    Customize Xero with hundreds of integrations to suit your business
-                                </p>
-                            </div>
-
-                        </div>
-
-
-
+                        ))}
                     </div>
-
-
-
                 </div>
+            </div>
 
+            <div className={styles['midSection22']} style={{ padding: '50px 20px' }}>
+                <div style={{ maxWidth: '800px', margin: '0 auto', textAlign: 'center' }}>
+                    <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
+
+                    <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
+                        {[
+                            {
+                                title: 'Bank Feeds',
+                                description: 'Connect your bank account directly to Xero to import your bank information. If your bank doesn’t offer this service, there is a simple bank import function.',
+                                icon: '🏦'
+                            },
+                            {
+                                title: 'Collaboration',
+                                description: 'Share access with your team or accountant for seamless collaboration.',
+                                icon: '🤝'
+                            },
+                            {
+                                title: 'Flexible Add-Ons',
+                                description: 'Customize Xero with hundreds of integrations to suit your business.',
+                                icon: '🔌'
+                            }
+                        ].map((feature, index) => (
+                            <div
+                                key={index}
+                                style={{
+
+                                    padding: '20px',
+                                    borderRadius: '10px',
+                                    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    justifyContent: 'center',
+                                    gap: '15px',
+                                    transition: 'transform 0.3s ease',
+                                }}
+                            // className="feature-card"
+                            >
+                                {/* <div style={{ fontSize: '30px', color: '#3498db' }}>{feature.icon}</div> */}
+                                <div>
+                                    <h3 style={{ fontSize: '24px', fontWeight: 'bold', color: '#fff' }}>{feature.title}</h3>
+                                    <p style={{ fontSize: '24px', color: '#fff' }}>{feature.description}</p>
+                                </div>
+                            </div>
+                        ))}
+                    </div>
+                </div>
             </div>
 
 
-            <div className={styles['midSection22']}>
-                <div >
-                    <div className={styles["mb55"]}>Top Xero Features</div>
 
-                    <div className={styles['midSectionCard2']}>
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '30px' }}>
-                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', }}>
-                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F', }}>Bank Feeds -</p>
-                                <p style={{ fontSize: '24px', color: '#fff', }}>
-                                    Connect your bank account directly to Xero to import your bank information.<br></br> If your Bank doesn’t offer this service, don’t worry, there is<br></br> a simple bank import function
-                                </p>
-                            </div>
-
-                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Collaboration -</p>
-                                <p style={{ fontSize: '24px', color: '#fff' }}>
-                                    Share access with your team or accountant for seamless collaboration
-                                </p>
-                            </div>
-
-                            <div style={{ display: 'flex', gap: '20px', flexWrap: 'wrap', alignItems: 'center' }}>
-                                <p style={{ fontSize: '24px', fontWeight: 'bold', color: '#C54D1F' }}>Flexible Add-Ons -</p>
-                                <p style={{ fontSize: '24px', color: '#fff' }}>
-                                    Customize Xero with hundreds of integrations to suit your business
-                                </p>
-                            </div>
-
-
-
-
-                        </div>
-                    </div>
-
-
-
-
-
-                </div>
-
-            </div>
-
-
+            
             <Box className="div-center position-relative mt-0">
-                <Box className={styles['schedule']}>
+                <Box className={styles['schedule']} style={{ display: "flex", alignItems: "center", flexDirection: "column" }} >
 
-                    <Typography className='weight-600 font-24 width-80 font-mulish line-height-36'>
-                        Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
-
+                <Typography className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
+                Ready to switch
                     </Typography>
+                    <Typography className="weight-600 font-24 width-80 width-100-md font-mulish line-height-36">
+                    Ready to switch to Xero? We’ll make the transition painless and provide allthe support you need along the way. Contact us for a customized quote today!
+                    </Typography>
+                </Box>
 
-                </Box>
-                <Box className="display-none-sm position-absolute right-0">
-                    <Image src={Scheduled} className={styles['schedule-sphere']} />
-                </Box>
-                <Box className="display-none display-block-sm position-absolute right-0 fig-schedule">
-                    <Image src={ScheduledMobile} className={styles['schedule-sphere']} />
-                </Box>
+
             </Box >
-
 
 
 
@@ -314,22 +324,22 @@ export default function services() {
 
             </div>
 
-            <Box className="div-center position-relative mt-0">
-                <Box className={styles['schedule']}>
 
-                    <Typography className='weight-600 font-24 width-80 font-mulish line-height-36'>
+
+            <Box className="div-center position-relative mt-0">
+                <Box className={styles['schedule']} style={{ display: "flex", alignItems: "center", flexDirection: "column" }} >
+
+                <Typography className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
+                Want to talk
+                    </Typography>
+                    <Typography className="weight-600 font-24 width-80 width-100-md font-mulish line-height-36">
                         Want to talk to us about your App Stack? We have team members who can review
 
                         your processes and apps. If we can’t help directly, we’ll help find the right solution for you.
                     </Typography>
+                </Box>
 
-                </Box>
-                <Box className="display-none-sm position-absolute right-0">
-                    <Image src={Scheduled} className={styles['schedule-sphere']} />
-                </Box>
-                <Box className="display-none display-block-sm position-absolute right-0 fig-schedule">
-                    <Image src={ScheduledMobile} className={styles['schedule-sphere']} />
-                </Box>
+
             </Box >
 
             <div className={styles['midSection2']}>
