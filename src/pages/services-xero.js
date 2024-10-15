@@ -130,7 +130,7 @@ export default function services() {
                     <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333' }}>Benefits of Using Xero
                     </h2>
 
-                    <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
+                    <ul className={styles['topText2']} style={{ color: '#DDDDDD' }} >
                         {[
                             {
                                 title: 'Easy to Use',
@@ -153,38 +153,28 @@ export default function services() {
                                 icon: '🔌'
                             }
                         ].map((feature, index) => (
-                            <div
+                            <li
                                 key={index}
-                                style={{
-
-                                    padding: '5px',
-                                    borderRadius: '10px',
-                                    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-
-                                    transition: 'transform 0.3s ease',
-                                }}
-                            // className="feature-card"
+                                style={{ fontWeight: "normal" }}
                             >
-                                {/* <div style={{ fontSize: '30px', color: '#3498db' }}>{feature.icon}</div> */}
-                                <div>
 
-                                    <p style={{ fontSize: '24px', color: '#fff' }}>
-                                        <span style={{ marginRight: "15px", fontWeight: "bolder" }}>{feature.title}:</span>
-                                        {feature.description}</p>
-                                </div>
-                            </div>
+                                <span style={{ fontWeight: "bold" }}> {feature.title}: </span>
+                                {feature.description}
+
+                            </li>
+
                         ))}
-                    </div>
+                    </ul>
                 </div>
             </div>
 
 
-            <div className={styles['midSection1']} style={{ padding: '10px 20px' }}>
+            <div className={styles['midSection1']} style={{ padding: '10px 20px',marginBottom:"40px" }}>
                 <div style={{ maxWidth: '960px', margin: '0 auto', }}>
                     <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
 
 
-                    <div className={styles['midSectionCard2']} style={{ display: 'flex', flexDirection: 'column', gap: '0px' }}>
+                    <ul className={styles['topText2']} style={{ color: '#DDDDDD' }} >
                         {[
                             {
                                 title: 'Bank Feeds',
@@ -202,28 +192,18 @@ export default function services() {
                                 icon: '🔌'
                             }
                         ].map((feature, index) => (
-                            <div
+                            <li
                                 key={index}
-                                style={{
-
-                                    padding: '5px',
-                                    borderRadius: '10px',
-                                    boxShadow: '0 4px 10px rgba(0, 0, 0, 0.1)',
-
-                                    transition: 'transform 0.3s ease',
-                                }}
-                            // className="feature-card"
+                                style={{ fontWeight: "normal" }}
                             >
-                                {/* <div style={{ fontSize: '30px', color: '#3498db' }}>{feature.icon}</div> */}
-                                <div>
 
-                                    <p style={{ fontSize: '24px', color: '#fff' }}>
-                                        <span style={{ marginRight: "15px", fontWeight: "bolder" }}>{feature.title}:</span>
-                                        {feature.description}</p>
-                                </div>
-                            </div>
+                                <span style={{ fontWeight: "bold" }}> {feature.title}: </span>
+                                {feature.description}
+
+                            </li>
+
                         ))}
-                    </div>
+                    </ul>
                 </div>
             </div>
 
