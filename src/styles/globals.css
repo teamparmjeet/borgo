@@ -50,6 +50,16 @@ body {
   position: relative !important;
 }
 
+.responsive-image-about {
+  width: 100% !important;       /* Ensures the image takes the full width of the container */
+  height: 100% !important;      /* Maintains aspect ratio while scaling the height */
+  max-height: 100vh !important; /* Limits height to the viewport height */
+  object-fit: cover !important; /* Ensures the image fills the container, cropping if necessary */
+  object-position: center 100% !important; /* Anchors the image to the bottom while centering it horizontally */
+}
+
+
+
 .box-inside:before {
   content: "" !important;
   color: #DDDDDD !important;
@@ -1319,15 +1329,6 @@ body {
   }
 
 }
-
-.responsive-image-about {
-  width: 100% !important;      /* Ensures the image takes full width of the container */
-  height: auto !important;     /* Adjusts the height automatically based on the image's aspect ratio */
-  max-height: 100vh !important; /* Limits the height to the viewport height */
-  object-fit: contain !important;  /* Ensures the entire image is shown */
-  object-position: bottom !important; /* Aligns the image from the bottom */
-}
-
 
 
 
