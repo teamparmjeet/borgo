@@ -10,15 +10,15 @@ import About3 from '../../public/assests/aboutgroup0.png'
 import About4 from '../../public/assests/aboutgroup2.png'
 import PropCard from '../../public/assests/propcard.png';
 
-import KalcAcc2 from '../../public/assests/teamnew/Ollie Dixon.webp';
-import KalcAcc3 from '../../public/assests/teamnew/Luciane Lino.webp';
-import KalcAcc8 from '../../public/assests/teamnew/Luciane-Lino.webp';
+import KalcAcc2 from '../../public/assests/team2/OllieDixon.jpg';
+import KalcAcc3 from '../../public/assests/team2/LucianeLino.jpg';
+import KalcAcc8 from '../../public/assests/team2/Luciane-Lino.jpg';
 
-import KalcAcc1 from '../../public/assests/teamnew/Allan Egan.webp';
-import KalcAcc4 from '../../public/assests/teamnew/Julio Domingos.webp';
-import KalcAcc5 from '../../public/assests/teamnew/Mingli Song.webp';
-import KalcAcc6 from '../../public/assests/teamnew/Michael McKenna.webp';
-import KalcAcc7 from '../../public/assests/teamnew/Jelena Paguba.webp';
+import KalcAcc1 from '../../public/assests/team2/AllanEgan.jpg';
+import KalcAcc4 from '../../public/assests/team2/JulioDomingos.jpg';
+import KalcAcc5 from '../../public/assests/team2/MingliSong.jpg';
+import KalcAcc6 from '../../public/assests/team2/MichaelMcKenna.jpg';
+import KalcAcc7 from '../../public/assests/team2/JelenaPaguba.jpg';
 
 
 import Arrow from '../../public/assests/arrow.png';

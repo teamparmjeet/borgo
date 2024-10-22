@@ -57,8 +57,13 @@ body {
   object-fit: cover !important; /* Ensures the image fills the container, cropping if necessary */
   object-position: center 100% !important; /* Anchors the image to the bottom while centering it horizontally */
 }
-
-
+.responsive-image-about123{
+  width: 100% !important;       /* Ensures the image takes the full width of the container */
+  height: 100% !important;      /* Maintains aspect ratio while scaling the height */
+  max-height: 100vh !important; /* Limits height to the viewport height */
+  object-fit: cover !important; /* Ensures the image fills the container, cropping if necessary */
+  object-position: center 100% !important; /* Anchors the image to the bottom while centering it horizontally */
+}
 
 .box-inside:before {
   content: "" !important;
