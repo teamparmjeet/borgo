@@ -534,7 +534,7 @@ export default function Home() {
                             We are your partner in business.We provide accounting services and advice to help you buildand grow your business.
                         </Typography>
                         {/* <Box className={'div-between'} sx={{ marginTop: '50px' }}> */}
-                        <a className={"div-between mt-50 text-decoration-none"} href="/services">
+                        <a className={"div-between mt-50 text-decoration-none"} href="/services-accounting/">
                             <Typography className='weight-700 color-light-grey text-center font-18 font-mulish'>
                                 Learn more
                             </Typography>

@@ -9,15 +9,15 @@ import About2 from '../../public/assests/aboutgroup1.png'
 import About3 from '../../public/assests/aboutgroup0.png'
 import About4 from '../../public/assests/aboutgroup2.png'
 import PropCard from '../../public/assests/propcard.png';
-import KalcAcc2 from '../../public/assests/team/Ollie-Dixon.webp';
-import KalcAcc3 from '../../public/assests/team/Sarah-Learmouth.webp';
+import KalcAcc2 from '../../public/assests/team/Ollie Dixon.jpg';
+import KalcAcc3 from '../../public/assests/team/Sarah Learmouth.jpg';
 import KalcAcc8 from '../../public/assests/team/Luciane-Lino.jpg';
 
-import KalcAcc1 from '../../public/assests/team/Allan Egan.webp';
-import KalcAcc4 from '../../public/assests/team/Julio Domingos.webp';
-import KalcAcc5 from '../../public/assests/team/Mingli Song.webp';
-import KalcAcc6 from '../../public/assests/team/Michael McKenna.webp';
-import KalcAcc7 from '../../public/assests/team/Jelena Paguba.webp';
+import KalcAcc1 from '../../public/assests/team/Allan Egan.jpg';
+import KalcAcc4 from '../../public/assests/team/Julio Domingos.jpg';
+import KalcAcc5 from '../../public/assests/team/Mingli Song.jpg';
+import KalcAcc6 from '../../public/assests/team/Michael McKenna.jpg';
+import KalcAcc7 from '../../public/assests/team/Jelena Paguba.jpg';
 
 
 import Arrow from '../../public/assests/arrow.png';
@@ -103,7 +103,7 @@ export default function About() {
       </Box>
 
       <Box className='width-80 width-80-sm margin-auto position-relative mt-100-sm' >
-        <Typography className='font-58 font-24-sm weight-300 weight-600-sm text-center font-mulish color-light-grey mt-20-sm line-height-72 line-height-29-sm' sx={{ marginTop: '300px' }}>
+        <Typography className='font-58 font-24-sm weight-300 weight-600-sm text-center font-mulish color-light-grey mt-20-sm line-height-72 line-height-29-sm' sx={{ marginTop: '200px' }}>
           “Their seamless onboarding process and expertise in Xero made the transition smooth and effortless”
         </Typography>
       </Box>
@@ -121,7 +121,7 @@ export default function About() {
         <div style={{ height: '64px', width: '64px', backgroundColor: '#5E6B7E', borderRadius: '50%' }}></div>
         <Typography className='font-16 weight-400 text-center color-light-grey mt-20 line-height-19'>Padraig Sweeney - Sweeney's D3</Typography>
         <Typography className='font-16 weight-400 text-center mt-10 color-grey line-height-19 display-none'>Borgo Client</Typography>
-        <Typography className='font-32 weight-300 text-center mt-100-sm mt-220 color-light-grey line-height-38' sx={{ zIndex: '5' }}>Meet the Borgo team</Typography>
+        <Typography className='font-32 weight-300 text-center mt-100-sm mt-150 color-light-grey line-height-38' sx={{ zIndex: '5' }}>Meet the Borgo team</Typography>
         <Typography className='font-60 font-40-sm width-80-sm weight-700 text-center mt-20 color-light-grey line-height-72 line-height-48-sm'>Our team is your team</Typography>
       </Box>
 

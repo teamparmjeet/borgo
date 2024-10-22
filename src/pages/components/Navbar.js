@@ -111,11 +111,7 @@ export default function Navbar(props) {
                                     }}
                                 >
                                     <List>
-                                        <ListItem>
-                                            <Link href="/services" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
-                                                <Typography className=' font-20'>Our Services</Typography>
-                                            </Link>
-                                        </ListItem>
+                                     
                                         <ListItem>
                                             <Link href="/services-accounting" style={{ textDecoration: 'none', color: '#DDDDDD', }}>
                                                 <Typography className=' font-20'>Accounting and Compliance</Typography>
@@ -218,11 +214,11 @@ export default function Navbar(props) {
                             onMouseEnter={handleHover}
                             onMouseLeave={handleHoverOut}
                         >
-                            <Link href="/services" style={{ textDecoration: 'none' }}>
+                          
                                 <Button className="font-mulish color-light-grey weight-700 font-16" sx={{ textTransform: 'capitalize' }}>
                                     Our Services
                                 </Button>
-                            </Link>
+                           
                             {dropdownOpen && (
                                 <Box
                                     sx={{

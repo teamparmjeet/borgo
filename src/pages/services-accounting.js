@@ -43,7 +43,7 @@ export default function services() {
                         Accounting and
                         <br /> Compliance Services
                     </div>
-                    <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem',}}>
+                    <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '0rem',}}>
                         Ensure your business stays compliant with expert year-end accounting services. Our team will prepare your year-end accounts, handle your tax obligations (Revenue), and submit annual returns (CRO). As your registered tax agent, we can manage your registrations, compliance, and any queries, providing peace of mind to you and your business. Our accounting and compliance services offer the following benefits:
                     </div>
 

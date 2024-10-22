@@ -49,17 +49,12 @@ export default function services() {
                 <Image className={styles['SF3']} src={SF3} />
 
                 <div className={styles['top2']} >
-                    {/* <div className={styles['topButtons']}>
-                        <div className={styles['topButtonsText']}>  OUR SERVICES  </div>
-                        <div className={styles['topButton']}><Link href='/services-accounting/' style={{ textDecoration: 'none', color: '#DDDDDD' }} > ACCOUNTING </Link> </div>
-                        <div className={styles['topButton']}><Link href='/services-onlinebookkeepr' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ONLINE BOOKKEEPER </Link></div>
-                        <div className={styles['topButton']}><Link href='/services-advisory' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ADVISORY </Link></div>
-                    </div> */}
+
                     <div className={styles['topHead']}>
                         Xero Migration,<br></br> Implementation <br></br> and Training
 
                     </div>
-                    <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem', }}>
+                    <div className={styles['topText']} style={{ maxWidth: '780px', }}>
                         Welcome to the future of accounting with Xero, cloud accounting
                         software designed to make managing your business finances
                         easier than ever. We offer seamless migration, setup, and
@@ -169,7 +164,7 @@ export default function services() {
             </div>
 
 
-            <div className={styles['midSection1']} style={{ padding: '10px 20px',marginBottom:"40px" }}>
+            <div className={styles['midSection1']} style={{ padding: '10px 20px', marginBottom: "40px" }}>
                 <div style={{ maxWidth: '960px', margin: '0 auto', }}>
                     <h2 className={styles["mb55"]} style={{ fontSize: '32px', fontWeight: 'bold', color: '#333', marginBottom: '40px' }}>Top Xero Features</h2>
 
@@ -321,77 +316,16 @@ export default function services() {
 
 
 
-            <Box className="div-center position-relative">
-
-                <div className={styles["schedule"]}>
-                    <Typography style={{ marginTop: "-18px" }} className="weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm">
-                        Want to talk
-                    </Typography>
-                    <Typography className="weight-600 font-24 width-100 width-100-md font-mulish line-height-36">
-                        Want to talk to us about your App Stack? We have team members who can review
-
-                        your processes and apps. If we can’t help directly, we’ll help find the right solution for you.
-                    </Typography>
-                    <div className="box-inside" style={{ marginTop: "10px", }}>
-                        <Typography
-                            className="read-more color-light-grey font-mulish"
-                            style={{ width: "158px", marginTop: "15px", height: "36px", paddingInline: "14px", paddingBlock: "12px" }}
-                        >
-                            <a
-                                href="https://calendly.com/d/z84-783-bw8/discovery-call" target='_blank' style={{ textDecoration: "none", color: "#DDDDDD" }}
-                            >
-                                {" "}
-                                Schedule a call{" "}
-                            </a>
-                        </Typography>
-                    </div>
-                </div>
-            </Box>
-
-
-            <div className={styles['midSection2']}>
-                <div >
-                    <div className={styles['midSectionHead']}>The Software</div>
-                    <div style={{ color: "#fff", marginBottom: "30px", marginTop: "30px", fontSize: "24px" }}>At Borgo we only use software that we trust and are proud to use</div>
-
-                    <Grid className={styles['midSectionCard']}>
-                        <Grid className={styles['part1']}>
-
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={logo2} className={styles['logo2']} />
-
-                            <div className={styles['midCardHead']} >Xero</div>
-                            <div className={styles['midCardText']} >
-                                Xero is small business accounting software that operates in the cloud. This means all your financial data is stored online - so you can access it anywhere, anytime, from any device. It's easy to use and will save you incredible amounts of time, transforming the way you run your business. Xero works with hundreds of Add-on apps 2 help you manage all aspects of your business, these include point of sale, time tracking, inventory management, invoicing and job systems plus a wide range of other specialised software.
-                                <br /><br />
-                                At Borgo we believe that Xero is the best cloud accounting software for small business and we're proud to be a Xero partner.
-                            </div>
-
-                        </Grid>
-                        <Grid className={styles['part1']}>
-
-                            <Image src={midCard} className={styles['midCard']} />
-                            <Image src={Dext} className={styles['logo1']} />
-
-                            <div className={styles['midCardHead']} >Dext</div>
-                            <div className={styles['midCardText']} >
-                                Dext is an award-winning business accounting software add-on that converts all your purchase invoices, bills and receipts into data, making it easy for you to send your financial information straight to us. With Dext's flexible submission methods you'll never lose another document as it's simple to submit them instantly You can submit in a variety of ways including the Dext App, Email or Invoice Fetch…where Dext will fetch the invoice for you directly from your online supplier account. Using Dexts easy submission methods means that you save time on sending us your paperwork, allowing you time to build your business.
-                            </div>
-
-                        </Grid>
-                    </Grid>
-                </div>
-
-            </div>
-
+      
             <Box className="div-center position-relative mt-0">
                 <Box className={styles['schedule']}>
-                    <Typography className='weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm'>
-                        Schedule a call
+                    <Typography style={{ marginTop:"-25px"}} className='weight-700 font-60 font-40-sm width-100 width-50-sm font-mulish line-height-72 line-height-48-sm'>
+                    Want to talk
                     </Typography>
                     <Typography className='weight-600 font-24 width-80 font-mulish line-height-36'>
-                        If you are starting a business we can help you every step of the way.<br></br>
-                        Let us work with you to get your business started on the right foot.
+                       Want to talk to us about your App Stack? We have team members who can review
+
+                        your processes and apps. If we can’t help directly, we’ll help find the right solution for you.
                     </Typography>
                     <div className="box-inside" style={{ marginTop: "10px" }}>
                         <Typography

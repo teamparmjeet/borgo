@@ -33,19 +33,14 @@ export default function services() {
         <Image className={styles['SF3']} src={SF3} />
 
         <div className={styles['top2']} >
-          {/* <div className={styles['topButtons']}>
-            <div className={styles['topButtonsText']}>  OUR SERVICES  </div>
-            <div className={styles['topButton']}><Link href='/services-accounting/' style={{ textDecoration: 'none', color: '#DDDDDD' }} > ACCOUNTING </Link> </div>
-            <div className={styles['topButton']}><Link href='/services-onlinebookkeepr' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ONLINE BOOKKEEPER </Link></div>
-            <div className={styles['topButton']}><Link href='/services-advisory' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ADVISORY </Link></div>
-          </div> */}
+
           <div className={styles['topHead']}>
-          Advisory 
+            Advisory
           </div>
-          <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem',}}>
-          Unlock your business’s potential with our expert business support services
-             From management reports to corporate finance and budgeting,
-            we provide actionable insights to help you make informed decisions and 
+          <div className={styles['topText']} style={{ maxWidth: '780px' }}>
+            Unlock your business’s potential with our expert business support services
+            From management reports to corporate finance and budgeting,
+            we provide actionable insights to help you make informed decisions and
             drive growth. Our business support services offers the following benefits:
 
           </div>
@@ -58,7 +53,7 @@ export default function services() {
               <li>Budgeting and projections for better financial planning.
               </li>
               <li>Expert support tailored to your business’s needs</li>
-             
+
             </ul>
 
           </div>
@@ -74,7 +69,7 @@ export default function services() {
 
         <div className={styles['ref']} >
 
-        <Grid container className=' mt-100' id='3'>
+          <Grid container className=' mt-100' id='3'>
             <Grid item xs={12} sm={12} md={6} xl={6} className='div-center-sm'>
               <ServiceCardLeft props={3} />
             </Grid>
@@ -100,14 +95,14 @@ export default function services() {
             </Grid>
           </Grid>
 
-        
+
 
         </div>
       </div >
 
-      
+
       <div className={styles['midSection2']}>
-    
+
 
       </div>
 

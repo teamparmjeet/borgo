@@ -39,11 +39,11 @@ export default function services() {
             <div className={styles['topButton']}><Link href='/services-onlinebookkeepr' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ONLINE BOOKKEEPER </Link></div>
             <div className={styles['topButton']}><Link href='/services-advisory' style={{ textDecoration: 'none', color: '#DDDDDD' }} >ADVISORY </Link></div>
           </div> */}
-          <div className={styles['topHead']}>
-            Online Bookkeeper
+          <div className={styles['topHead']} >
+             Online Bookkeeper
           </div>
-          <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 auto', padding: '1rem',}}>
-            Maintain accurate and up to date financial information with our
+          <div className={styles['topText']} style={{ maxWidth: '780px', margin: '0 0',}}>
+             Maintain accurate and up to date financial information with our
              online bookkeeping services. You will be assigned a dedicated
              bookkeeper to reconcile your accounts and manage your business
              admin tasks. Our online bookkeeping offers the following benefits:
