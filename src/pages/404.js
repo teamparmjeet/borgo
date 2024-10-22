@@ -33,7 +33,7 @@ export default function Error404() {
 
                                 <div className={styles['center-box-left-4-3']}>
                                     <div>
-                                        <Typography className={styles['center-box-left-3']}>Let's get you back</Typography>
+                                        <Typography className={styles['center-box-left-3']}>Lets get you back</Typography>
                                     </div>
 
                                     <div className={styles['center-box-left-4-2']}>
